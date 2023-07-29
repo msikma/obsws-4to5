@@ -1,0 +1,8 @@
+# Development files
+_source
+
+# General
+.DS_Store
+.AppleDouble
+.LSOverride
+.vscode
