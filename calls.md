@@ -322,6 +322,8 @@ See [readme.md](readme.md) for more information on migrating from v4 to v5.
 
 available-requests and supported-image-export-formats changed from a comma-separated list string into an array of strings.
 
+----
+
 ### GetAuthRequired
 
 **Name:**
@@ -345,6 +347,8 @@ available-requests and supported-image-export-formats changed from a comma-separ
 
 *None.*
 
+----
+
 ### Authenticate
 
 **Name:**
@@ -367,6 +371,8 @@ available-requests and supported-image-export-formats changed from a comma-separ
 **Response fields:**
 
 *None.*
+
+----
 
 ### SetHeartbeat
 
@@ -395,6 +401,8 @@ available-requests and supported-image-export-formats changed from a comma-separ
 
 Was deprecated since 4.9.0.
 
+----
+
 ### SetFilenameFormatting
 
 **Name:**
@@ -418,6 +426,8 @@ Was deprecated since 4.9.0.
 
 *None.*
 
+----
+
 ### GetFilenameFormatting
 
 **Name:**
@@ -440,6 +450,8 @@ Was deprecated since 4.9.0.
 **Response fields:**
 
 *None.*
+
+----
 
 ### GetStats
 
@@ -513,6 +525,8 @@ Was deprecated since 4.9.0.
 </tr>
 </table>
 
+----
+
 ### BroadcastCustomMessage
 
 **Name:**
@@ -552,6 +566,8 @@ Was deprecated since 4.9.0.
 **Notes:**
 
 "realm" is gone. Pass on the realm value in your eventData object instead.
+
+----
 
 ### GetVideoInfo
 
@@ -625,6 +641,8 @@ Was deprecated since 4.9.0.
 
 to get the true FPS value, divide the FPS numerator by the FPS denominator.+sa: SetVideoSettings
 
+----
+
 ### OpenProjector
 
 **Name:**
@@ -673,6 +691,8 @@ to get the true FPS value, divide the FPS numerator by the FPS denominator.+sa: 
 
 Docs state this is likely to be changed or deprecated in the future.
 
+----
+
 ### TriggerHotkeyByName
 
 **Name:**
@@ -708,6 +728,8 @@ Docs state this is likely to be changed or deprecated in the future.
 **See also:**
 
 * <a href="https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#gethotkeylist">GetHotkeyList</a>
+
+----
 
 ### TriggerHotkeyBySequence
 
@@ -745,6 +767,8 @@ Docs state this is likely to be changed or deprecated in the future.
 
 *None.*
 
+----
+
 ### ExecuteBatch
 
 **Name:**
@@ -771,6 +795,8 @@ Docs state this is likely to be changed or deprecated in the future.
 **Notes:**
 
 This is no longer a single request, but a separate API entirely.
+
+----
 
 ### Sleep
 
@@ -807,6 +833,8 @@ This is no longer a single request, but a separate API entirely.
 **Response fields:**
 
 *None.*
+
+----
 
 ### PlayPauseMedia, RestartMedia, StopMedia, NextMedia, PreviousMedia
 
@@ -848,6 +876,8 @@ This is no longer a single request, but a separate API entirely.
 
 use an item from the ObsMediaInputAction enum. #https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#obsmediainputaction
 
+----
+
 ### SetMediaTime
 
 **Name:**
@@ -883,6 +913,8 @@ use an item from the ObsMediaInputAction enum. #https://github.com/obsproject/ob
 **Response fields:**
 
 *None.*
+
+----
 
 ### GetMediaDuration, GetMediaTime, GetMediaState
 
@@ -937,6 +969,8 @@ use an item from the ObsMediaInputAction enum. #https://github.com/obsproject/ob
 
 See the v5 docs for a list of media states.
 
+----
+
 ### ScrubMedia
 
 **Name:**
@@ -973,6 +1007,8 @@ See the v5 docs for a list of media states.
 
 *None.*
 
+----
+
 ### GetMediaSourcesList
 
 **Name:**
@@ -995,6 +1031,8 @@ See the v5 docs for a list of media states.
 **Response fields:**
 
 *None.*
+
+----
 
 ### CreateSource
 
@@ -1053,6 +1091,8 @@ See the v5 docs for a list of media states.
 </tr>
 </table>
 
+----
+
 ### GetSourcesList
 
 **Name:**
@@ -1106,6 +1146,8 @@ See the v5 docs for a list of media states.
 </tr>
 </table>
 
+----
+
 ### GetSourceTypesList
 
 **Name:**
@@ -1150,6 +1192,8 @@ See the v5 docs for a list of media states.
 **Notes:**
 
 In v4 an object with lots of metadata was returned. In v5 only an array of strings representing the internal input kind names is returned.
+
+----
 
 ### GetVolume
 
@@ -1212,6 +1256,8 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 </tr>
 </table>
 
+----
+
 ### SetVolume
 
 **Name:**
@@ -1259,6 +1305,8 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 **Response fields:**
 
 *None.*
+
+----
 
 ### GetAudioTracks
 
@@ -1325,6 +1373,8 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 </tr>
 </table>
 
+----
+
 ### SetAudioTracks
 
 **Name:**
@@ -1368,6 +1418,8 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 **Response fields:**
 
 *None.*
+
+----
 
 ### GetMute
 
@@ -1414,6 +1466,8 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 </tr>
 </table>
 
+----
+
 ### SetMute
 
 **Name:**
@@ -1449,6 +1503,8 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 **Response fields:**
 
 *None.*
+
+----
 
 ### ToggleMute
 
@@ -1490,6 +1546,8 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <td>inputMuted</td>
 </tr>
 </table>
+
+----
 
 ### GetSourceActive
 
@@ -1536,6 +1594,8 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 </tr>
 </table>
 
+----
+
 ### GetAudioActive
 
 **Name:**
@@ -1558,6 +1618,8 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 **Response fields:**
 
 *None.*
+
+----
 
 ### SetSourceName
 
@@ -1595,6 +1657,8 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 
 *None.*
 
+----
+
 ### SetSyncOffset
 
 **Name:**
@@ -1630,6 +1694,8 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 **Response fields:**
 
 *None.*
+
+----
 
 ### GetSyncOffset
 
@@ -1675,6 +1741,8 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <td>inputAudioSyncOffset</td>
 </tr>
 </table>
+
+----
 
 ### GetSourceSettings, SetTextGDIPlusProperties, SetTextFreetype2Properties, GetBrowserSourceProperties
 
@@ -1728,6 +1796,8 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <td>inputSettings</td>
 </tr>
 </table>
+
+----
 
 ### SetSourceSettings, GetTextGDIPlusProperties, GetTextFreetype2Properties, SetBrowserSourceProperties
 
@@ -1794,6 +1864,8 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 
 No longer reflects the new updated settings back.
 
+----
+
 ### GetSpecialSources
 
 **Name:**
@@ -1845,6 +1917,8 @@ No longer reflects the new updated settings back.
 <td>mic4</td>
 </tr>
 </table>
+
+----
 
 ### GetSourceFilters
 
@@ -1902,6 +1976,8 @@ No longer reflects the new updated settings back.
 <td>filters[].filterIndex</td>
 </tr>
 </table>
+
+----
 
 ### GetSourceFilterInfo
 
@@ -1964,6 +2040,8 @@ No longer reflects the new updated settings back.
 </tr>
 </table>
 
+----
+
 ### AddFilterToSource
 
 **Name:**
@@ -2008,6 +2086,8 @@ No longer reflects the new updated settings back.
 
 *None.*
 
+----
+
 ### RemoveFilterFromSource
 
 **Name:**
@@ -2043,6 +2123,8 @@ No longer reflects the new updated settings back.
 **Response fields:**
 
 *None.*
+
+----
 
 ### ReorderSourceFilter
 
@@ -2084,6 +2166,8 @@ No longer reflects the new updated settings back.
 
 *None.*
 
+----
+
 ### MoveSourceFilter
 
 **Name:**
@@ -2110,6 +2194,8 @@ No longer reflects the new updated settings back.
 **Notes:**
 
 Retrieve the current index and then use SetSourceFilterIndex.
+
+----
 
 ### SetSourceFilterSettings
 
@@ -2155,6 +2241,8 @@ Retrieve the current index and then use SetSourceFilterIndex.
 
 *None.*
 
+----
+
 ### SetSourceFilterVisibility
 
 **Name:**
@@ -2194,6 +2282,8 @@ Retrieve the current index and then use SetSourceFilterIndex.
 **Response fields:**
 
 *None.*
+
+----
 
 ### GetAudioMonitorType
 
@@ -2236,6 +2326,8 @@ Retrieve the current index and then use SetSourceFilterIndex.
 </tr>
 </table>
 
+----
+
 ### SetAudioMonitorType
 
 **Name:**
@@ -2267,6 +2359,8 @@ Retrieve the current index and then use SetSourceFilterIndex.
 **Response fields:**
 
 *None.*
+
+----
 
 ### GetSourceDefaultSettings
 
@@ -2313,6 +2407,8 @@ Retrieve the current index and then use SetSourceFilterIndex.
 </tr>
 </table>
 
+----
+
 ### TakeSourceScreenshot
 
 **Name:**
@@ -2339,6 +2435,8 @@ Retrieve the current index and then use SetSourceFilterIndex.
 **Notes:**
 
 Split into two different requests, depending on whether you want to save the image or get it data URI encoded. See the v5 docs.
+
+----
 
 ### RefreshBrowserSource
 
@@ -2380,6 +2478,8 @@ Split into two different requests, depending on whether you want to save the ima
 
 Pass "refreshnocache" as propertyName.
 
+----
+
 ### ListOutputs
 
 **Name:**
@@ -2411,6 +2511,8 @@ Pass "refreshnocache" as propertyName.
 <td>outputs</td>
 </tr>
 </table>
+
+----
 
 ### GetOutputInfo
 
@@ -2448,6 +2550,8 @@ Pass "refreshnocache" as propertyName.
 
 TODO comparison of the response.
 
+----
+
 ### StartOutput
 
 **Name:**
@@ -2479,6 +2583,8 @@ TODO comparison of the response.
 **Response fields:**
 
 *None.*
+
+----
 
 ### StopOutput
 
@@ -2516,6 +2622,8 @@ TODO comparison of the response.
 
 *None.*
 
+----
+
 ### SetCurrentProfile
 
 **Name:**
@@ -2547,6 +2655,8 @@ TODO comparison of the response.
 **Response fields:**
 
 *None.*
+
+----
 
 ### GetCurrentProfile
 
@@ -2584,6 +2694,8 @@ TODO comparison of the response.
 </tr>
 </table>
 
+----
+
 ### ListProfiles
 
 **Name:**
@@ -2619,6 +2731,8 @@ TODO comparison of the response.
 <td>profiles</td>
 </tr>
 </table>
+
+----
 
 ### GetRecordingStatus
 
@@ -2672,6 +2786,8 @@ TODO comparison of the response.
 </tr>
 </table>
 
+----
+
 ### StartStopRecording
 
 **Name:**
@@ -2695,6 +2811,8 @@ TODO comparison of the response.
 
 *None.*
 
+----
+
 ### StartRecording
 
 **Name:**
@@ -2717,6 +2835,8 @@ TODO comparison of the response.
 **Response fields:**
 
 *None.*
+
+----
 
 ### StopRecording
 
@@ -2750,6 +2870,8 @@ TODO comparison of the response.
 </tr>
 </table>
 
+----
+
 ### PauseRecording
 
 **Name:**
@@ -2777,6 +2899,8 @@ TODO comparison of the response.
 
 * <a href="https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#togglerecordpause">ToggleRecordPause</a>
 
+----
+
 ### ResumeRecording
 
 **Name:**
@@ -2803,6 +2927,8 @@ TODO comparison of the response.
 **See also:**
 
 * <a href="https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#togglerecordpause">ToggleRecordPause</a>
+
+----
 
 ### SetRecordingFolder
 
@@ -2836,6 +2962,8 @@ TODO comparison of the response.
 </tr>
 </table>
 
+----
+
 ### GetRecordingFolder
 
 **Name:**
@@ -2867,6 +2995,8 @@ TODO comparison of the response.
 <td>recordDirectory</td>
 </tr>
 </table>
+
+----
 
 ### GetReplayBufferStatus
 
@@ -2900,6 +3030,8 @@ TODO comparison of the response.
 
 *None.*
 
+----
+
 ### StartStopReplayBuffer
 
 **Name:**
@@ -2932,6 +3064,8 @@ TODO comparison of the response.
 
 *None.*
 
+----
+
 ### StartReplayBuffer
 
 **Name:**
@@ -2954,6 +3088,8 @@ TODO comparison of the response.
 **Response fields:**
 
 *None.*
+
+----
 
 ### StopReplayBuffer
 
@@ -2978,6 +3114,8 @@ TODO comparison of the response.
 
 *None.*
 
+----
+
 ### SaveReplayBuffer
 
 **Name:**
@@ -3000,6 +3138,8 @@ TODO comparison of the response.
 **Response fields:**
 
 *None.*
+
+----
 
 ### SetCurrentSceneCollection
 
@@ -3032,6 +3172,8 @@ TODO comparison of the response.
 **Response fields:**
 
 *None.*
+
+----
 
 ### GetCurrentSceneCollection
 
@@ -3069,6 +3211,8 @@ TODO comparison of the response.
 </tr>
 </table>
 
+----
+
 ### ListSceneCollections
 
 **Name:**
@@ -3104,6 +3248,8 @@ TODO comparison of the response.
 <td>sceneCollections</td>
 </tr>
 </table>
+
+----
 
 ### GetSceneItemList
 
@@ -3193,6 +3339,8 @@ TODO. v4 property list probably incomplete.
 
 * <a href="https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#getgroupsceneitemlist">GetGroupSceneItemList</a>
 
+----
+
 ### GetSceneItemProperties
 
 **Name:**
@@ -3215,6 +3363,8 @@ TODO. v4 property list probably incomplete.
 **Response fields:**
 
 *None.*
+
+----
 
 ### SetSceneItemProperties
 
@@ -3239,6 +3389,8 @@ TODO. v4 property list probably incomplete.
 
 *None.*
 
+----
+
 ### ResetSceneItem
 
 **Name:**
@@ -3261,6 +3413,8 @@ TODO. v4 property list probably incomplete.
 **Response fields:**
 
 *None.*
+
+----
 
 ### SetSceneItemRender
 
@@ -3306,6 +3460,8 @@ TODO. v4 property list probably incomplete.
 
 *None.*
 
+----
+
 ### SetSceneItemPosition
 
 **Name:**
@@ -3328,6 +3484,8 @@ TODO. v4 property list probably incomplete.
 **Response fields:**
 
 *None.*
+
+----
 
 ### SetSceneItemTransform
 
@@ -3384,6 +3542,8 @@ TODO. v4 property list probably incomplete.
 **Response fields:**
 
 *None.*
+
+----
 
 ### SetSceneItemCrop
 
@@ -3445,6 +3605,8 @@ TODO. v4 property list probably incomplete.
 
 *None.*
 
+----
+
 ### DeleteSceneItem
 
 **Name:**
@@ -3484,6 +3646,8 @@ TODO. v4 property list probably incomplete.
 **Response fields:**
 
 *None.*
+
+----
 
 ### AddSceneItem
 
@@ -3533,6 +3697,8 @@ TODO. v4 property list probably incomplete.
 <td>sceneItemId</td>
 </tr>
 </table>
+
+----
 
 ### DuplicateSceneItem
 
@@ -3595,6 +3761,8 @@ TODO. v4 property list probably incomplete.
 </tr>
 </table>
 
+----
+
 ### SetCurrentScene
 
 **Name:**
@@ -3630,6 +3798,8 @@ TODO. v4 property list probably incomplete.
 **See also:**
 
 * <a href="https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#setcurrentpreviewscene">SetCurrentPreviewScene</a>
+
+----
 
 ### GetCurrentScene
 
@@ -3671,6 +3841,8 @@ TODO. v4 property list probably incomplete.
 
 * <a href="https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#getcurrentpreviewscene">GetCurrentPreviewScene</a>
 
+----
+
 ### GetSceneList
 
 **Name:**
@@ -3711,6 +3883,8 @@ TODO. v4 property list probably incomplete.
 </tr>
 </table>
 
+----
+
 ### CreateScene
 
 **Name:**
@@ -3743,6 +3917,8 @@ TODO. v4 property list probably incomplete.
 
 *None.*
 
+----
+
 ### ReorderSceneItems
 
 **Name:**
@@ -3765,6 +3941,8 @@ TODO. v4 property list probably incomplete.
 **Response fields:**
 
 *None.*
+
+----
 
 ### SetSceneTransitionOverride
 
@@ -3806,6 +3984,8 @@ TODO. v4 property list probably incomplete.
 
 *None.*
 
+----
+
 ### RemoveSceneTransitionOverride
 
 **Name:**
@@ -3832,6 +4012,8 @@ TODO. v4 property list probably incomplete.
 **Notes:**
 
 Use SetSceneSceneTransitionOverride and set transitionName and transitionDuration to null.
+
+----
 
 ### GetSceneTransitionOverride
 
@@ -3877,6 +4059,8 @@ Use SetSceneSceneTransitionOverride and set transitionName and transitionDuratio
 <td>transitionDuration</td>
 </tr>
 </table>
+
+----
 
 ### GetStreamingStatus
 
@@ -3950,6 +4134,8 @@ Information about the recording and virtual cam status has been moved to GetReco
 * <a href="https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#getrecordstatus">GetRecordStatus</a>
 * <a href="https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#getvirtualcamstatus">GetVirtualCamStatus</a>
 
+----
+
 ### StartStopStreaming
 
 **Name:**
@@ -3982,6 +4168,8 @@ Information about the recording and virtual cam status has been moved to GetReco
 </tr>
 </table>
 
+----
+
 ### StartStreaming
 
 **Name:**
@@ -4005,6 +4193,8 @@ Information about the recording and virtual cam status has been moved to GetReco
 
 *None.*
 
+----
+
 ### StopStreaming
 
 **Name:**
@@ -4027,6 +4217,8 @@ Information about the recording and virtual cam status has been moved to GetReco
 **Response fields:**
 
 *None.*
+
+----
 
 ### SetStreamSettings
 
@@ -4064,6 +4256,8 @@ Information about the recording and virtual cam status has been moved to GetReco
 
 *None.*
 
+----
+
 ### GetStreamSettings
 
 **Name:**
@@ -4100,6 +4294,8 @@ Information about the recording and virtual cam status has been moved to GetReco
 </tr>
 </table>
 
+----
+
 ### SaveStreamSettings
 
 **Name:**
@@ -4122,6 +4318,8 @@ Information about the recording and virtual cam status has been moved to GetReco
 **Response fields:**
 
 *None.*
+
+----
 
 ### SendCaptions
 
@@ -4155,6 +4353,8 @@ Information about the recording and virtual cam status has been moved to GetReco
 
 *None.*
 
+----
+
 ### GetStudioModeStatus
 
 **Name:**
@@ -4186,6 +4386,8 @@ Information about the recording and virtual cam status has been moved to GetReco
 <td>studioModeEnabled</td>
 </tr>
 </table>
+
+----
 
 ### GetPreviewScene
 
@@ -4223,6 +4425,8 @@ Information about the recording and virtual cam status has been moved to GetReco
 </tr>
 </table>
 
+----
+
 ### SetPreviewScene
 
 **Name:**
@@ -4254,6 +4458,8 @@ Information about the recording and virtual cam status has been moved to GetReco
 **Response fields:**
 
 *None.*
+
+----
 
 ### TransitionToProgram
 
@@ -4295,6 +4501,8 @@ Information about the recording and virtual cam status has been moved to GetReco
 
 Unknown if it's still possible to override the transition like in v4.
 
+----
+
 ### EnableStudioMode
 
 **Name:**
@@ -4326,6 +4534,8 @@ Unknown if it's still possible to override the transition like in v4.
 **Response fields:**
 
 *None.*
+
+----
 
 ### DisableStudioMode
 
@@ -4359,6 +4569,8 @@ Unknown if it's still possible to override the transition like in v4.
 
 *None.*
 
+----
+
 ### ToggleStudioMode
 
 **Name:**
@@ -4381,6 +4593,8 @@ Unknown if it's still possible to override the transition like in v4.
 **Response fields:**
 
 *None.*
+
+----
 
 ### GetTransitionList
 
@@ -4421,6 +4635,8 @@ Unknown if it's still possible to override the transition like in v4.
 **Response fields:**
 
 *None.*
+
+----
 
 ### GetCurrentTransition
 
@@ -4474,6 +4690,8 @@ Unknown if it's still possible to override the transition like in v4.
 
 *None.*
 
+----
+
 ### SetCurrentTransition
 
 **Name:**
@@ -4505,6 +4723,8 @@ Unknown if it's still possible to override the transition like in v4.
 **Response fields:**
 
 *None.*
+
+----
 
 ### SetTransitionDuration
 
@@ -4538,6 +4758,8 @@ Unknown if it's still possible to override the transition like in v4.
 
 *None.*
 
+----
+
 ### GetTransitionDuration
 
 **Name:**
@@ -4564,6 +4786,8 @@ Unknown if it's still possible to override the transition like in v4.
 **Notes:**
 
 Use GetCurrentSceneTransition.
+
+----
 
 ### GetTransitionPosition
 
@@ -4597,6 +4821,8 @@ Use GetCurrentSceneTransition.
 </tr>
 </table>
 
+----
+
 ### GetTransitionSettings
 
 **Name:**
@@ -4623,6 +4849,8 @@ Use GetCurrentSceneTransition.
 **Notes:**
 
 Use GetCurrentSceneTransition.
+
+----
 
 ### SetTransitionSettings
 
@@ -4651,6 +4879,8 @@ Use GetCurrentSceneTransition.
 
 Use SetCurrentSceneTransitionSettings. Unknown if it's currently possible to set the transition settings of a different one than the current scene transition.
 
+----
+
 ### ReleaseTBar
 
 **Name:**
@@ -4677,6 +4907,8 @@ Use SetCurrentSceneTransitionSettings. Unknown if it's currently possible to set
 **Notes:**
 
 Use SetTBarPosition with "release" set to true.
+
+----
 
 ### SetTBarPosition
 
@@ -4718,6 +4950,8 @@ Use SetTBarPosition with "release" set to true.
 
 deprecated and very likely to be removed in a future update.
 
+----
+
 ### GetVirtualCamStatus
 
 **Name:**
@@ -4758,6 +4992,8 @@ deprecated and very likely to be removed in a future update.
 
 Unknown if it's possible to get virtualCamTimecode in any way in v5.
 
+----
+
 ### StartStopVirtualCam
 
 **Name:**
@@ -4790,6 +5026,8 @@ Unknown if it's possible to get virtualCamTimecode in any way in v5.
 </tr>
 </table>
 
+----
+
 ### StartVirtualCam
 
 **Name:**
@@ -4812,6 +5050,8 @@ Unknown if it's possible to get virtualCamTimecode in any way in v5.
 **Response fields:**
 
 *None.*
+
+----
 
 ### StopVirtualCam
 
@@ -4844,6 +5084,8 @@ For reference, see the full list of requests:
 * [5.1.0 protocol request list](https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#requests)
 
 ## Events
+
+----
 
 ### SwitchScenes
 
@@ -4880,6 +5122,8 @@ For reference, see the full list of requests:
 <td>—</td>
 </tr>
 </table>
+
+----
 
 ### ScenesChanged
 
@@ -4919,6 +5163,8 @@ For reference, see the full list of requests:
 * <a href="https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#sceneremoved">SceneRemoved</a>
 * <a href="https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#scenenamechanged">SceneNameChanged</a>
 
+----
+
 ### SceneCollectionChanged
 
 **Name:**
@@ -4954,6 +5200,8 @@ For reference, see the full list of requests:
 **See also:**
 
 * <a href="https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#currentscenecollectionchanging">CurrentSceneCollectionChanging</a>
+
+----
 
 ### SceneCollectionListChanged
 
@@ -4991,6 +5239,8 @@ For reference, see the full list of requests:
 
 sceneCollections changed from Array<{name: string}> to Array<string>.
 
+----
+
 ### SwitchTransition
 
 **Name:**
@@ -5023,6 +5273,8 @@ sceneCollections changed from Array<{name: string}> to Array<string>.
 </tr>
 </table>
 
+----
+
 ### TransitionListChanged
 
 **Name:**
@@ -5045,6 +5297,8 @@ sceneCollections changed from Array<{name: string}> to Array<string>.
 **Response fields:**
 
 *None.*
+
+----
 
 ### TransitionDurationChanged
 
@@ -5077,6 +5331,8 @@ sceneCollections changed from Array<{name: string}> to Array<string>.
 <td>transitionDuration</td>
 </tr>
 </table>
+
+----
 
 ### TransitionBegin
 
@@ -5126,6 +5382,8 @@ sceneCollections changed from Array<{name: string}> to Array<string>.
 </tr>
 </table>
 
+----
+
 ### TransitionEnd
 
 **Name:**
@@ -5169,6 +5427,8 @@ sceneCollections changed from Array<{name: string}> to Array<string>.
 <td>—</td>
 </tr>
 </table>
+
+----
 
 ### TransitionVideoEnd
 
@@ -5218,6 +5478,8 @@ sceneCollections changed from Array<{name: string}> to Array<string>.
 </tr>
 </table>
 
+----
+
 ### ProfileChanged
 
 **Name:**
@@ -5254,6 +5516,8 @@ sceneCollections changed from Array<{name: string}> to Array<string>.
 
 * <a href="https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#currentprofilechanging">CurrentProfileChanging</a>
 
+----
+
 ### ProfileListChanged
 
 **Name:**
@@ -5289,6 +5553,8 @@ sceneCollections changed from Array<{name: string}> to Array<string>.
 **Notes:**
 
 profiles changed from Array<{name: string}> to Array<string>.
+
+----
 
 ### StreamStarting, StreamStarted, StreamStopping, StreamStopped
 
@@ -5330,6 +5596,8 @@ profiles changed from Array<{name: string}> to Array<string>.
 </tr>
 </table>
 
+----
+
 ### StreamStatus
 
 **Name:**
@@ -5356,6 +5624,8 @@ profiles changed from Array<{name: string}> to Array<string>.
 **Notes:**
 
 Send a GetStats request
+
+----
 
 ### RecordingStarting, RecordingStarted, RecordingStopping, RecordingStopped, RecordingPaused, RecordingResumed
 
@@ -5397,6 +5667,8 @@ Send a GetStats request
 </tr>
 </table>
 
+----
+
 ### VirtualCamStarted, VirtualCamStopped
 
 **Name:**
@@ -5432,6 +5704,8 @@ Send a GetStats request
 <td>outputState</td>
 </tr>
 </table>
+
+----
 
 ### ReplayStarting, ReplayStarted, ReplayStopping, ReplayStopped
 
@@ -5469,6 +5743,8 @@ Send a GetStats request
 </tr>
 </table>
 
+----
+
 ### Exiting
 
 **Name:**
@@ -5491,6 +5767,8 @@ Send a GetStats request
 **Response fields:**
 
 *None.*
+
+----
 
 ### Heartbeat
 
@@ -5518,6 +5796,8 @@ Send a GetStats request
 **Notes:**
 
 todo
+
+----
 
 ### BroadcastCustomMessage
 
@@ -5554,6 +5834,8 @@ todo
 <td>eventData</td>
 </tr>
 </table>
+
+----
 
 ### SourceCreated
 
@@ -5611,6 +5893,8 @@ todo
 </tr>
 </table>
 
+----
+
 ### SourceDestroyed
 
 **Name:**
@@ -5655,6 +5939,8 @@ todo
 </tr>
 </table>
 
+----
+
 ### SourceVolumeChanged
 
 **Name:**
@@ -5695,6 +5981,8 @@ todo
 </tr>
 </table>
 
+----
+
 ### SourceMuteStateChanged
 
 **Name:**
@@ -5731,6 +6019,8 @@ todo
 </tr>
 </table>
 
+----
+
 ### SourceAudioDeactivated, SourceAudioActivated
 
 **Name:**
@@ -5753,6 +6043,8 @@ todo
 **Response fields:**
 
 *None.*
+
+----
 
 ### SourceAudioSyncOffsetChanged
 
@@ -5794,6 +6086,8 @@ todo
 
 sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = milliseconds).
 
+----
+
 ### SourceAudioMixersChanged
 
 **Name:**
@@ -5816,6 +6110,8 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 **Response fields:**
 
 *None.*
+
+----
 
 ### SourceRenamed
 
@@ -5856,6 +6152,8 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <td>—</td>
 </tr>
 </table>
+
+----
 
 ### SourceFilterAdded
 
@@ -5909,6 +6207,8 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 </tr>
 </table>
 
+----
+
 ### SourceFilterRemoved
 
 **Name:**
@@ -5948,6 +6248,8 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <td>—</td>
 </tr>
 </table>
+
+----
 
 ### SourceFilterVisibilityChanged
 
@@ -5989,6 +6291,8 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 </tr>
 </table>
 
+----
+
 ### SourceFiltersReordered
 
 **Name:**
@@ -6024,6 +6328,8 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <td>filters</td>
 </tr>
 </table>
+
+----
 
 ### MediaStarted
 
@@ -6061,6 +6367,8 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 </tr>
 </table>
 
+----
+
 ### MediaEnded
 
 **Name:**
@@ -6096,6 +6404,8 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <td>-</td>
 </tr>
 </table>
+
+----
 
 ### MediaPlaying, MediaPaused, MediaRestarted, MediaStopped, MediaNext, MediaPrevious
 
@@ -6137,6 +6447,8 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 </tr>
 </table>
 
+----
+
 ### SourceOrderChanged
 
 **Name:**
@@ -6172,6 +6484,8 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <td>sceneItems</td>
 </tr>
 </table>
+
+----
 
 ### SceneItemAdded
 
@@ -6217,6 +6531,8 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 </tr>
 </table>
 
+----
+
 ### SceneItemRemoved
 
 **Name:**
@@ -6256,6 +6572,8 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <td>sceneItemId</td>
 </tr>
 </table>
+
+----
 
 ### SceneItemVisibilityChanged
 
@@ -6301,6 +6619,8 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 </tr>
 </table>
 
+----
+
 ### SceneItemLockChanged
 
 **Name:**
@@ -6344,6 +6664,8 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <td>sceneItemLocked</td>
 </tr>
 </table>
+
+----
 
 ### SceneItemTransformChanged
 
@@ -6389,6 +6711,8 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 </tr>
 </table>
 
+----
+
 ### SceneItemSelected
 
 **Name:**
@@ -6429,6 +6753,8 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 </tr>
 </table>
 
+----
+
 ### SceneItemDeselected
 
 **Name:**
@@ -6451,6 +6777,8 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 **Response fields:**
 
 *None.*
+
+----
 
 ### PreviewSceneChanged
 
@@ -6487,6 +6815,8 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <td>—</td>
 </tr>
 </table>
+
+----
 
 ### StudioModeSwitched
 
