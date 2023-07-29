@@ -5085,8 +5085,6 @@ For reference, see the full list of requests:
 
 ## Events
 
-----
-
 ### SwitchScenes
 
 **Name:**
