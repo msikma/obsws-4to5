@@ -265,7 +265,7 @@ See [readme.md](readme.md) for more information on migrating from v4 to v5.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getversion">GetVersion</a></td>
@@ -282,7 +282,7 @@ See [readme.md](readme.md) for more information on migrating from v4 to v5.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>version</td>
@@ -329,7 +329,7 @@ available-requests and supported-image-export-formats changed from a comma-separ
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getauthrequired">GetAuthRequired</a></td>
@@ -352,7 +352,7 @@ available-requests and supported-image-export-formats changed from a comma-separ
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#authenticate">Authenticate</a></td>
@@ -375,7 +375,7 @@ available-requests and supported-image-export-formats changed from a comma-separ
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#setheartbeat">SetHeartbeat</a></td>
@@ -402,7 +402,7 @@ Was deprecated since 4.9.0.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#setfilenameformatting">SetFilenameFormatting</a></td>
@@ -425,7 +425,7 @@ Was deprecated since 4.9.0.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getfilenameformatting">GetFilenameFormatting</a></td>
@@ -448,7 +448,7 @@ Was deprecated since 4.9.0.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getstats">GetStats</a></td>
@@ -465,7 +465,7 @@ Was deprecated since 4.9.0.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>fps</td>
@@ -520,7 +520,7 @@ Was deprecated since 4.9.0.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#broadcastcustommessage">BroadcastCustomMessage</a></td>
@@ -533,7 +533,7 @@ Was deprecated since 4.9.0.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>realm</td>
@@ -560,7 +560,7 @@ Was deprecated since 4.9.0.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getvideoinfo">GetVideoInfo</a></td>
@@ -577,7 +577,7 @@ Was deprecated since 4.9.0.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>baseWidth</td>
@@ -632,7 +632,7 @@ to get the true FPS value, divide the FPS numerator by the FPS denominator.+sa: 
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#openprojector">OpenProjector</a></td>
@@ -645,7 +645,7 @@ to get the true FPS value, divide the FPS numerator by the FPS denominator.+sa: 
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>type</td>
@@ -680,7 +680,7 @@ Docs state this is likely to be changed or deprecated in the future.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#triggerhotkeybyname">TriggerHotkeyByName</a></td>
@@ -693,7 +693,7 @@ Docs state this is likely to be changed or deprecated in the future.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>hotkeyName</td>
@@ -716,7 +716,7 @@ Docs state this is likely to be changed or deprecated in the future.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#triggerhotkeybysequence">TriggerHotkeyBySequence</a></td>
@@ -729,7 +729,7 @@ Docs state this is likely to be changed or deprecated in the future.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>keyId</td>
@@ -752,7 +752,7 @@ Docs state this is likely to be changed or deprecated in the future.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#executebatch">ExecuteBatch</a></td>
@@ -779,7 +779,7 @@ This is no longer a single request, but a separate API entirely.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#sleep">Sleep</a></td>
@@ -792,7 +792,7 @@ This is no longer a single request, but a separate API entirely.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sleepMillis</td>
@@ -815,7 +815,7 @@ This is no longer a single request, but a separate API entirely.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#playpausemedia">PlayPauseMedia</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#restartmedia">RestartMedia</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#stopmedia">StopMedia</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#nextmedia">NextMedia</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#previousmedia">PreviousMedia</a></td>
@@ -828,7 +828,7 @@ This is no longer a single request, but a separate API entirely.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -855,7 +855,7 @@ use an item from the ObsMediaInputAction enum. #https://github.com/obsproject/ob
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#setmediatime">SetMediaTime</a></td>
@@ -868,7 +868,7 @@ use an item from the ObsMediaInputAction enum. #https://github.com/obsproject/ob
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -891,7 +891,7 @@ use an item from the ObsMediaInputAction enum. #https://github.com/obsproject/ob
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getmediaduration">GetMediaDuration</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getmediatime">GetMediaTime</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getmediastate">GetMediaState</a></td>
@@ -904,7 +904,7 @@ use an item from the ObsMediaInputAction enum. #https://github.com/obsproject/ob
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -917,7 +917,7 @@ use an item from the ObsMediaInputAction enum. #https://github.com/obsproject/ob
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>—</td>
@@ -944,7 +944,7 @@ See the v5 docs for a list of media states.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#scrubmedia">ScrubMedia</a></td>
@@ -957,7 +957,7 @@ See the v5 docs for a list of media states.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -980,7 +980,7 @@ See the v5 docs for a list of media states.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getmediasourceslist">GetMediaSourcesList</a></td>
@@ -1003,7 +1003,7 @@ See the v5 docs for a list of media states.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#createsource">CreateSource</a></td>
@@ -1016,7 +1016,7 @@ See the v5 docs for a list of media states.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -1045,7 +1045,7 @@ See the v5 docs for a list of media states.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>itemId</td>
@@ -1060,7 +1060,7 @@ See the v5 docs for a list of media states.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getsourceslist">GetSourcesList</a></td>
@@ -1073,7 +1073,7 @@ See the v5 docs for a list of media states.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>—</td>
@@ -1086,7 +1086,7 @@ See the v5 docs for a list of media states.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sources[].name</td>
@@ -1113,7 +1113,7 @@ See the v5 docs for a list of media states.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getsourcetypeslist">GetSourceTypesList</a></td>
@@ -1126,7 +1126,7 @@ See the v5 docs for a list of media states.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>—</td>
@@ -1139,7 +1139,7 @@ See the v5 docs for a list of media states.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>types</td>
@@ -1158,7 +1158,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getvolume">GetVolume</a></td>
@@ -1171,7 +1171,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>source</td>
@@ -1188,7 +1188,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>name</td>
@@ -1219,7 +1219,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#setvolume">SetVolume</a></td>
@@ -1232,7 +1232,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>source</td>
@@ -1267,7 +1267,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getaudiotracks">GetAudioTracks</a></td>
@@ -1280,7 +1280,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -1293,7 +1293,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>track1</td>
@@ -1332,7 +1332,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#setaudiotracks">SetAudioTracks</a></td>
@@ -1345,7 +1345,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -1376,7 +1376,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getmute">GetMute</a></td>
@@ -1389,7 +1389,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>source</td>
@@ -1402,7 +1402,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>name</td>
@@ -1421,7 +1421,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#setmute">SetMute</a></td>
@@ -1434,7 +1434,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>source</td>
@@ -1457,7 +1457,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#togglemute">ToggleMute</a></td>
@@ -1470,7 +1470,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>source</td>
@@ -1483,7 +1483,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>—</td>
@@ -1498,7 +1498,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getsourceactive">GetSourceActive</a></td>
@@ -1511,7 +1511,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -1524,7 +1524,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceActive</td>
@@ -1543,7 +1543,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getaudioactive">GetAudioActive</a></td>
@@ -1566,7 +1566,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#setsourcename">SetSourceName</a></td>
@@ -1579,7 +1579,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -1602,7 +1602,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#setsyncoffset">SetSyncOffset</a></td>
@@ -1615,7 +1615,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>source</td>
@@ -1638,7 +1638,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getsyncoffset">GetSyncOffset</a></td>
@@ -1651,7 +1651,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>source</td>
@@ -1664,7 +1664,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>name</td>
@@ -1683,7 +1683,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getsourcesettings">GetSourceSettings</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#settextgdiplusproperties">SetTextGDIPlusProperties</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#settextfreetype2properties">SetTextFreetype2Properties</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getbrowsersourceproperties">GetBrowserSourceProperties</a></td>
@@ -1696,7 +1696,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -1713,7 +1713,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -1736,7 +1736,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#setsourcesettings">SetSourceSettings</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#gettextgdiplusproperties">GetTextGDIPlusProperties</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#gettextfreetype2properties">GetTextFreetype2Properties</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#setbrowsersourceproperties">SetBrowserSourceProperties</a></td>
@@ -1749,7 +1749,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -1774,7 +1774,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -1801,7 +1801,7 @@ No longer reflects the new updated settings back.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getspecialsources">GetSpecialSources</a></td>
@@ -1818,7 +1818,7 @@ No longer reflects the new updated settings back.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>desktop-1</td>
@@ -1853,7 +1853,7 @@ No longer reflects the new updated settings back.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getsourcefilters">GetSourceFilters</a></td>
@@ -1866,7 +1866,7 @@ No longer reflects the new updated settings back.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -1879,7 +1879,7 @@ No longer reflects the new updated settings back.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>filters[].enabled</td>
@@ -1910,7 +1910,7 @@ No longer reflects the new updated settings back.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getsourcefilterinfo">GetSourceFilterInfo</a></td>
@@ -1923,7 +1923,7 @@ No longer reflects the new updated settings back.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -1940,7 +1940,7 @@ No longer reflects the new updated settings back.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>enabled</td>
@@ -1971,7 +1971,7 @@ No longer reflects the new updated settings back.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#addfiltertosource">AddFilterToSource</a></td>
@@ -1984,7 +1984,7 @@ No longer reflects the new updated settings back.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -2015,7 +2015,7 @@ No longer reflects the new updated settings back.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#removefilterfromsource">RemoveFilterFromSource</a></td>
@@ -2028,7 +2028,7 @@ No longer reflects the new updated settings back.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -2051,7 +2051,7 @@ No longer reflects the new updated settings back.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#reordersourcefilter">ReorderSourceFilter</a></td>
@@ -2064,7 +2064,7 @@ No longer reflects the new updated settings back.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -2091,7 +2091,7 @@ No longer reflects the new updated settings back.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#movesourcefilter">MoveSourceFilter</a></td>
@@ -2118,7 +2118,7 @@ Retrieve the current index and then use SetSourceFilterIndex.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#setsourcefiltersettings">SetSourceFilterSettings</a></td>
@@ -2131,7 +2131,7 @@ Retrieve the current index and then use SetSourceFilterIndex.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -2162,7 +2162,7 @@ Retrieve the current index and then use SetSourceFilterIndex.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#setsourcefiltervisibility">SetSourceFilterVisibility</a></td>
@@ -2175,7 +2175,7 @@ Retrieve the current index and then use SetSourceFilterIndex.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -2202,7 +2202,7 @@ Retrieve the current index and then use SetSourceFilterIndex.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getaudiomonitortype">GetAudioMonitorType</a></td>
@@ -2215,7 +2215,7 @@ Retrieve the current index and then use SetSourceFilterIndex.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -2228,7 +2228,7 @@ Retrieve the current index and then use SetSourceFilterIndex.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>monitorType</td>
@@ -2243,7 +2243,7 @@ Retrieve the current index and then use SetSourceFilterIndex.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#setaudiomonitortype">SetAudioMonitorType</a></td>
@@ -2256,7 +2256,7 @@ Retrieve the current index and then use SetSourceFilterIndex.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -2275,7 +2275,7 @@ Retrieve the current index and then use SetSourceFilterIndex.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getsourcedefaultsettings">GetSourceDefaultSettings</a></td>
@@ -2288,7 +2288,7 @@ Retrieve the current index and then use SetSourceFilterIndex.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceKind</td>
@@ -2301,7 +2301,7 @@ Retrieve the current index and then use SetSourceFilterIndex.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceKind</td>
@@ -2320,7 +2320,7 @@ Retrieve the current index and then use SetSourceFilterIndex.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#takesourcescreenshot">TakeSourceScreenshot</a></td>
@@ -2347,7 +2347,7 @@ Split into two different requests, depending on whether you want to save the ima
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#refreshbrowsersource">RefreshBrowserSource</a></td>
@@ -2360,7 +2360,7 @@ Split into two different requests, depending on whether you want to save the ima
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -2387,7 +2387,7 @@ Pass "refreshnocache" as propertyName.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#listoutputs">ListOutputs</a></td>
@@ -2404,7 +2404,7 @@ Pass "refreshnocache" as propertyName.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>outputs</td>
@@ -2419,7 +2419,7 @@ Pass "refreshnocache" as propertyName.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getoutputinfo">GetOutputInfo</a></td>
@@ -2432,7 +2432,7 @@ Pass "refreshnocache" as propertyName.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>outputName</td>
@@ -2455,7 +2455,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#startoutput">StartOutput</a></td>
@@ -2468,7 +2468,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>outputName</td>
@@ -2487,7 +2487,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#stopoutput">StopOutput</a></td>
@@ -2500,7 +2500,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>outputName</td>
@@ -2523,7 +2523,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#setcurrentprofile">SetCurrentProfile</a></td>
@@ -2536,7 +2536,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>profile-name</td>
@@ -2555,7 +2555,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getcurrentprofile">GetCurrentProfile</a></td>
@@ -2572,7 +2572,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>profile-name</td>
@@ -2591,7 +2591,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#listprofiles">ListProfiles</a></td>
@@ -2608,7 +2608,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>—</td>
@@ -2627,7 +2627,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getrecordingstatus">GetRecordingStatus</a></td>
@@ -2644,7 +2644,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>isRecording</td>
@@ -2679,7 +2679,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#startstoprecording">StartStopRecording</a></td>
@@ -2702,7 +2702,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#startrecording">StartRecording</a></td>
@@ -2725,7 +2725,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#stoprecording">StopRecording</a></td>
@@ -2742,7 +2742,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>—</td>
@@ -2757,7 +2757,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#pauserecording">PauseRecording</a></td>
@@ -2784,7 +2784,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#resumerecording">ResumeRecording</a></td>
@@ -2811,7 +2811,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#setrecordingfolder">SetRecordingFolder</a></td>
@@ -2828,7 +2828,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>rec-folder</td>
@@ -2843,7 +2843,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getrecordingfolder">GetRecordingFolder</a></td>
@@ -2860,7 +2860,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>rec-folder</td>
@@ -2875,7 +2875,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getreplaybufferstatus">GetReplayBufferStatus</a></td>
@@ -2888,7 +2888,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>isReplayBufferActive</td>
@@ -2907,7 +2907,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#startstopreplaybuffer">StartStopReplayBuffer</a></td>
@@ -2920,7 +2920,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>—</td>
@@ -2939,7 +2939,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#startreplaybuffer">StartReplayBuffer</a></td>
@@ -2962,7 +2962,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#stopreplaybuffer">StopReplayBuffer</a></td>
@@ -2985,7 +2985,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#savereplaybuffer">SaveReplayBuffer</a></td>
@@ -3008,7 +3008,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#setcurrentscenecollection">SetCurrentSceneCollection</a></td>
@@ -3021,7 +3021,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sc-name</td>
@@ -3040,7 +3040,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getcurrentscenecollection">GetCurrentSceneCollection</a></td>
@@ -3057,7 +3057,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sc-name</td>
@@ -3076,7 +3076,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#listscenecollections">ListSceneCollections</a></td>
@@ -3093,7 +3093,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>—</td>
@@ -3112,7 +3112,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getsceneitemlist">GetSceneItemList</a></td>
@@ -3125,7 +3125,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sceneName</td>
@@ -3138,7 +3138,7 @@ TODO comparison of the response.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sceneName</td>
@@ -3200,7 +3200,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getsceneitemproperties">GetSceneItemProperties</a></td>
@@ -3223,7 +3223,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#setsceneitemproperties">SetSceneItemProperties</a></td>
@@ -3246,7 +3246,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#resetsceneitem">ResetSceneItem</a></td>
@@ -3269,7 +3269,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#setsceneitemrender">SetSceneItemRender</a></td>
@@ -3282,7 +3282,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>scene-name</td>
@@ -3313,7 +3313,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#setsceneitemposition">SetSceneItemPosition</a></td>
@@ -3336,7 +3336,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#setsceneitemtransform">SetSceneItemTransform</a></td>
@@ -3349,7 +3349,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>scene-name</td>
@@ -3392,7 +3392,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#setsceneitemcrop">SetSceneItemCrop</a></td>
@@ -3405,7 +3405,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>scene-name</td>
@@ -3452,7 +3452,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#deletesceneitem">DeleteSceneItem</a></td>
@@ -3465,7 +3465,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>scene</td>
@@ -3492,7 +3492,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#addsceneitem">AddSceneItem</a></td>
@@ -3505,7 +3505,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sceneName</td>
@@ -3526,7 +3526,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>itemId</td>
@@ -3541,7 +3541,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#duplicatesceneitem">DuplicateSceneItem</a></td>
@@ -3554,7 +3554,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>fromScene</td>
@@ -3579,7 +3579,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>scene</td>
@@ -3602,7 +3602,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#setcurrentscene">SetCurrentScene</a></td>
@@ -3615,7 +3615,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>scene-name</td>
@@ -3638,7 +3638,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getcurrentscene">GetCurrentScene</a></td>
@@ -3655,7 +3655,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>name</td>
@@ -3678,7 +3678,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getscenelist">GetSceneList</a></td>
@@ -3695,7 +3695,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>current-scene</td>
@@ -3718,7 +3718,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#createscene">CreateScene</a></td>
@@ -3731,7 +3731,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sceneName</td>
@@ -3750,7 +3750,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#reordersceneitems">ReorderSceneItems</a></td>
@@ -3773,7 +3773,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#setscenetransitionoverride">SetSceneTransitionOverride</a></td>
@@ -3786,7 +3786,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sceneName</td>
@@ -3813,7 +3813,7 @@ TODO. v4 property list probably incomplete.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#removescenetransitionoverride">RemoveSceneTransitionOverride</a></td>
@@ -3840,7 +3840,7 @@ Use SetSceneSceneTransitionOverride and set transitionName and transitionDuratio
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getscenetransitionoverride">GetSceneTransitionOverride</a></td>
@@ -3853,7 +3853,7 @@ Use SetSceneSceneTransitionOverride and set transitionName and transitionDuratio
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sceneName</td>
@@ -3866,7 +3866,7 @@ Use SetSceneSceneTransitionOverride and set transitionName and transitionDuratio
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>transitionName</td>
@@ -3885,7 +3885,7 @@ Use SetSceneSceneTransitionOverride and set transitionName and transitionDuratio
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getstreamingstatus">GetStreamingStatus</a></td>
@@ -3902,7 +3902,7 @@ Use SetSceneSceneTransitionOverride and set transitionName and transitionDuratio
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>streaming</td>
@@ -3957,7 +3957,7 @@ Information about the recording and virtual cam status has been moved to GetReco
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#startstopstreaming">StartStopStreaming</a></td>
@@ -3974,7 +3974,7 @@ Information about the recording and virtual cam status has been moved to GetReco
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>—</td>
@@ -3989,7 +3989,7 @@ Information about the recording and virtual cam status has been moved to GetReco
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#startstreaming">StartStreaming</a></td>
@@ -4012,7 +4012,7 @@ Information about the recording and virtual cam status has been moved to GetReco
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#stopstreaming">StopStreaming</a></td>
@@ -4035,7 +4035,7 @@ Information about the recording and virtual cam status has been moved to GetReco
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#setstreamsettings">SetStreamSettings</a></td>
@@ -4048,7 +4048,7 @@ Information about the recording and virtual cam status has been moved to GetReco
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>type</td>
@@ -4071,7 +4071,7 @@ Information about the recording and virtual cam status has been moved to GetReco
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getstreamsettings">GetStreamSettings</a></td>
@@ -4088,7 +4088,7 @@ Information about the recording and virtual cam status has been moved to GetReco
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>type</td>
@@ -4107,7 +4107,7 @@ Information about the recording and virtual cam status has been moved to GetReco
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#savestreamsettings">SaveStreamSettings</a></td>
@@ -4130,7 +4130,7 @@ Information about the recording and virtual cam status has been moved to GetReco
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#sendcaptions">SendCaptions</a></td>
@@ -4143,7 +4143,7 @@ Information about the recording and virtual cam status has been moved to GetReco
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>text</td>
@@ -4162,7 +4162,7 @@ Information about the recording and virtual cam status has been moved to GetReco
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getstudiomodestatus">GetStudioModeStatus</a></td>
@@ -4179,7 +4179,7 @@ Information about the recording and virtual cam status has been moved to GetReco
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>studio-mode</td>
@@ -4194,7 +4194,7 @@ Information about the recording and virtual cam status has been moved to GetReco
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getpreviewscene">GetPreviewScene</a></td>
@@ -4211,7 +4211,7 @@ Information about the recording and virtual cam status has been moved to GetReco
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>name</td>
@@ -4230,7 +4230,7 @@ Information about the recording and virtual cam status has been moved to GetReco
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#setpreviewscene">SetPreviewScene</a></td>
@@ -4243,7 +4243,7 @@ Information about the recording and virtual cam status has been moved to GetReco
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>scene-name</td>
@@ -4262,7 +4262,7 @@ Information about the recording and virtual cam status has been moved to GetReco
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#transitiontoprogram">TransitionToProgram</a></td>
@@ -4275,7 +4275,7 @@ Information about the recording and virtual cam status has been moved to GetReco
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>with-transition.name</td>
@@ -4302,7 +4302,7 @@ Unknown if it's still possible to override the transition like in v4.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#enablestudiomode">EnableStudioMode</a></td>
@@ -4315,7 +4315,7 @@ Unknown if it's still possible to override the transition like in v4.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>—</td>
@@ -4334,7 +4334,7 @@ Unknown if it's still possible to override the transition like in v4.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#disablestudiomode">DisableStudioMode</a></td>
@@ -4347,7 +4347,7 @@ Unknown if it's still possible to override the transition like in v4.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>—</td>
@@ -4366,7 +4366,7 @@ Unknown if it's still possible to override the transition like in v4.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#togglestudiomode">ToggleStudioMode</a></td>
@@ -4389,7 +4389,7 @@ Unknown if it's still possible to override the transition like in v4.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#gettransitionlist">GetTransitionList</a></td>
@@ -4402,7 +4402,7 @@ Unknown if it's still possible to override the transition like in v4.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>current-transition</td>
@@ -4429,7 +4429,7 @@ Unknown if it's still possible to override the transition like in v4.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getcurrenttransition">GetCurrentTransition</a></td>
@@ -4442,7 +4442,7 @@ Unknown if it's still possible to override the transition like in v4.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>name</td>
@@ -4481,7 +4481,7 @@ Unknown if it's still possible to override the transition like in v4.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#setcurrenttransition">SetCurrentTransition</a></td>
@@ -4494,7 +4494,7 @@ Unknown if it's still possible to override the transition like in v4.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>transition-name</td>
@@ -4513,7 +4513,7 @@ Unknown if it's still possible to override the transition like in v4.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#settransitionduration">SetTransitionDuration</a></td>
@@ -4526,7 +4526,7 @@ Unknown if it's still possible to override the transition like in v4.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>duration</td>
@@ -4545,7 +4545,7 @@ Unknown if it's still possible to override the transition like in v4.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#gettransitionduration">GetTransitionDuration</a></td>
@@ -4572,7 +4572,7 @@ Use GetCurrentSceneTransition.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#gettransitionposition">GetTransitionPosition</a></td>
@@ -4589,7 +4589,7 @@ Use GetCurrentSceneTransition.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>position</td>
@@ -4604,7 +4604,7 @@ Use GetCurrentSceneTransition.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#gettransitionsettings">GetTransitionSettings</a></td>
@@ -4631,7 +4631,7 @@ Use GetCurrentSceneTransition.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#settransitionsettings">SetTransitionSettings</a></td>
@@ -4658,7 +4658,7 @@ Use SetCurrentSceneTransitionSettings. Unknown if it's currently possible to set
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#releasetbar">ReleaseTBar</a></td>
@@ -4685,7 +4685,7 @@ Use SetTBarPosition with "release" set to true.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#settbarposition">SetTBarPosition</a></td>
@@ -4698,7 +4698,7 @@ Use SetTBarPosition with "release" set to true.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>position</td>
@@ -4725,7 +4725,7 @@ deprecated and very likely to be removed in a future update.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getvirtualcamstatus">GetVirtualCamStatus</a></td>
@@ -4742,7 +4742,7 @@ deprecated and very likely to be removed in a future update.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>isVirtualCam</td>
@@ -4765,7 +4765,7 @@ Unknown if it's possible to get virtualCamTimecode in any way in v5.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#startstopvirtualcam">StartStopVirtualCam</a></td>
@@ -4782,7 +4782,7 @@ Unknown if it's possible to get virtualCamTimecode in any way in v5.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>—</td>
@@ -4797,7 +4797,7 @@ Unknown if it's possible to get virtualCamTimecode in any way in v5.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#startvirtualcam">StartVirtualCam</a></td>
@@ -4820,7 +4820,7 @@ Unknown if it's possible to get virtualCamTimecode in any way in v5.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#stopvirtualcam">StopVirtualCam</a></td>
@@ -4852,7 +4852,7 @@ For reference, see the full list of requests:
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#switchscenes">SwitchScenes</a></td>
@@ -4869,7 +4869,7 @@ For reference, see the full list of requests:
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>scene-name</td>
@@ -4888,7 +4888,7 @@ For reference, see the full list of requests:
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#sceneschanged">ScenesChanged</a></td>
@@ -4905,7 +4905,7 @@ For reference, see the full list of requests:
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>scenes</td>
@@ -4926,7 +4926,7 @@ For reference, see the full list of requests:
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#scenecollectionchanged">SceneCollectionChanged</a></td>
@@ -4943,7 +4943,7 @@ For reference, see the full list of requests:
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sceneCollection</td>
@@ -4962,7 +4962,7 @@ For reference, see the full list of requests:
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#scenecollectionlistchanged">SceneCollectionListChanged</a></td>
@@ -4979,7 +4979,7 @@ For reference, see the full list of requests:
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sceneCollections</td>
@@ -4998,7 +4998,7 @@ sceneCollections changed from Array<{name: string}> to Array<string>.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#switchtransition">SwitchTransition</a></td>
@@ -5015,7 +5015,7 @@ sceneCollections changed from Array<{name: string}> to Array<string>.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>transition-name</td>
@@ -5030,7 +5030,7 @@ sceneCollections changed from Array<{name: string}> to Array<string>.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#transitionlistchanged">TransitionListChanged</a></td>
@@ -5053,7 +5053,7 @@ sceneCollections changed from Array<{name: string}> to Array<string>.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#transitiondurationchanged">TransitionDurationChanged</a></td>
@@ -5070,7 +5070,7 @@ sceneCollections changed from Array<{name: string}> to Array<string>.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>new-duration</td>
@@ -5085,7 +5085,7 @@ sceneCollections changed from Array<{name: string}> to Array<string>.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#transitionbegin">TransitionBegin</a></td>
@@ -5102,7 +5102,7 @@ sceneCollections changed from Array<{name: string}> to Array<string>.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>name</td>
@@ -5133,7 +5133,7 @@ sceneCollections changed from Array<{name: string}> to Array<string>.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#transitionend">TransitionEnd</a></td>
@@ -5150,7 +5150,7 @@ sceneCollections changed from Array<{name: string}> to Array<string>.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>name</td>
@@ -5177,7 +5177,7 @@ sceneCollections changed from Array<{name: string}> to Array<string>.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#transitionvideoend">TransitionVideoEnd</a></td>
@@ -5194,7 +5194,7 @@ sceneCollections changed from Array<{name: string}> to Array<string>.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>name</td>
@@ -5225,7 +5225,7 @@ sceneCollections changed from Array<{name: string}> to Array<string>.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#profilechanged">ProfileChanged</a></td>
@@ -5242,7 +5242,7 @@ sceneCollections changed from Array<{name: string}> to Array<string>.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>profile</td>
@@ -5261,7 +5261,7 @@ sceneCollections changed from Array<{name: string}> to Array<string>.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#profilelistchanged">ProfileListChanged</a></td>
@@ -5278,7 +5278,7 @@ sceneCollections changed from Array<{name: string}> to Array<string>.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>profiles</td>
@@ -5297,7 +5297,7 @@ profiles changed from Array<{name: string}> to Array<string>.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#streamstarting">StreamStarting</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#streamstarted">StreamStarted</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#streamstopping">StreamStopping</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#streamstopped">StreamStopped</a></td>
@@ -5314,7 +5314,7 @@ profiles changed from Array<{name: string}> to Array<string>.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>preview-only</td>
@@ -5337,7 +5337,7 @@ profiles changed from Array<{name: string}> to Array<string>.
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#streamstatus">StreamStatus</a></td>
@@ -5364,7 +5364,7 @@ Send a GetStats request
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#recordingstarting">RecordingStarting</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#recordingstarted">RecordingStarted</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#recordingstopping">RecordingStopping</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#recordingstopped">RecordingStopped</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#recordingpaused">RecordingPaused</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#recordingresumed">RecordingResumed</a></td>
@@ -5381,7 +5381,7 @@ Send a GetStats request
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>—</td>
@@ -5404,7 +5404,7 @@ Send a GetStats request
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#virtualcamstarted">VirtualCamStarted</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#virtualcamstopped">VirtualCamStopped</a></td>
@@ -5421,7 +5421,7 @@ Send a GetStats request
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>—</td>
@@ -5440,7 +5440,7 @@ Send a GetStats request
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#replaystarting">ReplayStarting</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#replaystarted">ReplayStarted</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#replaystopping">ReplayStopping</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#replaystopped">ReplayStopped</a></td>
@@ -5457,7 +5457,7 @@ Send a GetStats request
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>—</td>
@@ -5476,7 +5476,7 @@ Send a GetStats request
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#exiting">Exiting</a></td>
@@ -5499,7 +5499,7 @@ Send a GetStats request
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#heartbeat">Heartbeat</a></td>
@@ -5526,7 +5526,7 @@ todo
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#broadcastcustommessage">BroadcastCustomMessage</a></td>
@@ -5543,7 +5543,7 @@ todo
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>realm</td>
@@ -5562,7 +5562,7 @@ todo
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#sourcecreated">SourceCreated</a></td>
@@ -5579,7 +5579,7 @@ todo
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>—</td>
@@ -5618,7 +5618,7 @@ todo
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#sourcedestroyed">SourceDestroyed</a></td>
@@ -5635,7 +5635,7 @@ todo
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>—</td>
@@ -5662,7 +5662,7 @@ todo
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#sourcevolumechanged">SourceVolumeChanged</a></td>
@@ -5679,7 +5679,7 @@ todo
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -5702,7 +5702,7 @@ todo
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#sourcemutestatechanged">SourceMuteStateChanged</a></td>
@@ -5719,7 +5719,7 @@ todo
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -5738,7 +5738,7 @@ todo
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#sourceaudiodeactivated">SourceAudioDeactivated</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#sourceaudioactivated">SourceAudioActivated</a></td>
@@ -5761,7 +5761,7 @@ todo
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#sourceaudiosyncoffsetchanged">SourceAudioSyncOffsetChanged</a></td>
@@ -5778,7 +5778,7 @@ todo
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -5801,7 +5801,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#sourceaudiomixerschanged">SourceAudioMixersChanged</a></td>
@@ -5824,7 +5824,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#sourcerenamed">SourceRenamed</a></td>
@@ -5841,7 +5841,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>previousName</td>
@@ -5864,7 +5864,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#sourcefilteradded">SourceFilterAdded</a></td>
@@ -5881,7 +5881,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -5916,7 +5916,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#sourcefilterremoved">SourceFilterRemoved</a></td>
@@ -5933,7 +5933,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -5956,7 +5956,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#sourcefiltervisibilitychanged">SourceFilterVisibilityChanged</a></td>
@@ -5973,7 +5973,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -5996,7 +5996,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#sourcefiltersreordered">SourceFiltersReordered</a></td>
@@ -6013,7 +6013,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -6032,7 +6032,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#mediastarted">MediaStarted</a></td>
@@ -6049,7 +6049,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -6068,7 +6068,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#mediaended">MediaEnded</a></td>
@@ -6085,7 +6085,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -6104,7 +6104,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#mediaplaying">MediaPlaying</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#mediapaused">MediaPaused</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#mediarestarted">MediaRestarted</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#mediastopped">MediaStopped</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#medianext">MediaNext</a><br><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#mediaprevious">MediaPrevious</a></td>
@@ -6121,7 +6121,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>sourceName</td>
@@ -6144,7 +6144,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#sourceorderchanged">SourceOrderChanged</a></td>
@@ -6161,7 +6161,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>scene-name</td>
@@ -6180,7 +6180,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#sceneitemadded">SceneItemAdded</a></td>
@@ -6197,7 +6197,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>scene-name</td>
@@ -6224,7 +6224,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#sceneitemremoved">SceneItemRemoved</a></td>
@@ -6241,7 +6241,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>scene-name</td>
@@ -6264,7 +6264,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#sceneitemvisibilitychanged">SceneItemVisibilityChanged</a></td>
@@ -6281,7 +6281,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>scene-name</td>
@@ -6308,7 +6308,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#sceneitemlockchanged">SceneItemLockChanged</a></td>
@@ -6325,7 +6325,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>scene-name</td>
@@ -6352,7 +6352,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#sceneitemtransformchanged">SceneItemTransformChanged</a></td>
@@ -6369,7 +6369,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>scene-name</td>
@@ -6396,7 +6396,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#sceneitemselected">SceneItemSelected</a></td>
@@ -6413,7 +6413,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>scene-name</td>
@@ -6436,7 +6436,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#sceneitemdeselected">SceneItemDeselected</a></td>
@@ -6459,7 +6459,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#previewscenechanged">PreviewSceneChanged</a></td>
@@ -6476,7 +6476,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>scene-name</td>
@@ -6495,7 +6495,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#studiomodeswitched">StudioModeSwitched</a></td>
@@ -6512,7 +6512,7 @@ sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = mi
 <table>
 <tr>
 <th>Protocol v4.9.1</th>
-<th>Protocol v5.0.1</th>
+<th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
 <td>new-state</td>
