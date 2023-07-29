@@ -4856,7 +4856,7 @@ For reference, see the full list of requests:
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#switchscenes">SwitchScenes</a></td>
-<td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#currentprogramscenechanged">CurrentProgramSceneChanged</a><br><a href="https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#currentpreviewscenechanged">CurrentPreviewSceneChanged</a></td>
+<td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#currentprogramscenechanged">CurrentProgramSceneChanged</a></td>
 </tr>
 </table>
 
