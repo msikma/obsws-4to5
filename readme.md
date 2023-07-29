@@ -103,15 +103,20 @@ Since some calls in **v5** now carry less information than before, batch request
 <td valign="top">
 
 ```js
-const results = await client.send('ExecuteBatch', {requests: [
+const results = await client.send(
+  'ExecuteBatch',
   {
-    'request-type': 'GetVersion'
-  },
-  {
-    'request-type': 'SetPreviewScene',
-    'scene-name': 'Scene 5'
+    requests: [
+      {
+        'request-type': 'GetVersion'
+      },
+      {
+        'request-type': 'SetPreviewScene',
+        'scene-name': 'Scene 5'
+      }
+    ]
   }
-]})
+)
 ```
 </td>
 <td valign="top">
