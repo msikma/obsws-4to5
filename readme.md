@@ -14,6 +14,7 @@ I am not involved in the development of obs-websocket or OBS itself, so I'm not 
 
 * You can now store and request **persistent JSON data** in OBS using the [GetPersistentData](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#getpersistentdata) call.
 * A new **"vendor" API** has been added, which is similar to `CustomEvent` messages but designed specifically for plugin developers.
+* The API is now versioned, meaning calls are guaranteed to be stable if the RPC version is specified on connect.
 
 A number of [other new features](https://github.com/obsproject/obs-websocket/wiki/Notable-changes-between-4.x-and-5.x) have been added as well.
 
