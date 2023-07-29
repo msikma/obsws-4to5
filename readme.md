@@ -13,14 +13,16 @@ I am not involved in the development of obs-websocket or OBS itself, so I'm not 
 ## New features
 
 * You can now store and request **persistent JSON data** in OBS using the [GetPersistentData](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#getpersistentdata) call.
-* The OBS video settings are now also accessible through the [GetVideoSettings](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#getvideosettings) call.
-* Requests can now be [batched](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#requestbatch-opcode-8) for efficiency.
+* A new **"vendor" API** has been added, which is similar to `CustomEvent` messages but designed specifically for plugin developers.
+
+A number of [other new features](https://github.com/obsproject/obs-websocket/wiki/Notable-changes-between-4.x-and-5.x) have been added as well.
 
 ## Basics
 
-The protocol has completely changed since v4, so old applications will need to be thoroughly updated. A v4 client can not connect to a v5 server—there is no backwards compatibility.
+The protocol has completely changed since v4, so old applications will need to be totally changed. A v4 client can not connect to a v5 server—there is no backwards compatibility.
 
 * The **default port** was changed from **4444** (v4) to **4455** (v5).
+* Authentication is now always enabled by default.
 
 *The following examples are specific to [obs-websocket-js](https://github.com/obs-websocket-community-projects/obs-websocket-js)—if you're using a different client, check their documentation to see its equivalent.*
 
@@ -62,8 +64,6 @@ await client.connect(
 </table>
 
 If you try to connect to a **v5** server with a **v4** client, the call will throw a `CONNECTION_ERROR`.
-
-In **v4**, you could use the undocumented variable `client._connected` to see if the connection was active. In **v5** this can be done by checking for `client.socket`. (FIXME: check if this works the same way.)
 
 Disconnecting has remained the same.
 
@@ -147,6 +147,8 @@ const results = await client.callBatch([
 
 Almost all events have changed name and return data in a different format. The process of adding listeners has remained the same.
 
+It's worth mentioning that all event properties are now in camelCase, whereas in **v4** properties were a mix of camelCase and snake-case.
+
 <table>
 <tr>
 <th>Protocol v4</th><th>Protocol v5</th>
@@ -158,8 +160,6 @@ Almost all events have changed name and return data in a different format. The p
 // Adds a listener for EventName.
 client.on('EventName', data => {
   // Do something with 'data'.
-  // The 'data' object contains
-  // kebab-case and camelCase values.
 })
 // TODO
 ```
@@ -170,7 +170,6 @@ client.on('EventName', data => {
 // Adds a listener for EventName.
 client.on('EventName', data => {
   // Do something with 'data'.
-  // Only camelCase values exist.
 })
 client.addListener('EventName', fn)
 
@@ -192,29 +191,19 @@ client.once('EventName', fn)
 </tr>
 </table>
 
-## Requests
+## Requests and events
 
-TODO.
+Almost all requests and events have changed between v4 and v5—the names are different and the data formats have changed. The full list of changes is so long that it's split off into its own document.
 
-For reference, see the full list of requests:
+For a full list of the changes, see [calls.md](calls.md).
 
-* [4.9.1 protocol request list](https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#requests)
-* [5.1.0 protocol request list](https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#requests)
 
-## Events
-
-TODO.
-
-For reference, see the full list of events:
-
-* [4.9.1 protocol event list](https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#events)
-* [5.1.0 protocol event list](https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#events)
 
 ## External links
 
-* [obs-websocket 4.9.1 Protocol](https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md) ([JSON](https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/comments.json))
-* [obs-websocket 5.1.0 Protocol](https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md) ([JSON](https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.json), [design goals](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#design-goals))
+* [obs-websocket 4.9.1 Protocol](https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md) ([JSON](https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/comments.json), [requests](https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#requests), [events](https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#events))
+* [obs-websocket 5.1.0 Protocol](https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md) ([JSON](https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.json), [requests](https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#requests), [events](https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#events), [design goals](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#design-goals))
 * [obs-websocket Wiki: Notable Changes between 4.x and 5.x](https://github.com/obsproject/obs-websocket/wiki/Notable-changes-between-4.x-and-5.x)
-* [obs-websocket 5.0.0 Release: Breaking Changes](https://github.com/obs-websocket-community-projects/obs-websocket-js/releases/tag/v5.0.0)
+* [obs-websocket-js 5.0.0 Release: Breaking Changes](https://github.com/obs-websocket-community-projects/obs-websocket-js/releases/tag/v5.0.0)
 * [obs-websocket](https://github.com/obsproject/obs-websocket) ([v4](https://github.com/obsproject/obs-websocket/tree/8823ecd2094ffa17dac6ceaa2987981b12f0820a), [v5](https://github.com/obsproject/obs-websocket/tree/6fd18a7ef1ecb149e8444154af1daab61d4241a9))
 * [obs-websocket-js](https://github.com/obs-websocket-community-projects/obs-websocket-js) ([v4](https://github.com/obs-websocket-community-projects/obs-websocket-js/tree/v4), [v5](https://github.com/obs-websocket-community-projects/obs-websocket-js/tree/d6244bb26c473ced366d710d091f4a51c5d76fc2))
