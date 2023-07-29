@@ -91,7 +91,9 @@ await client.call('RequestName', {})
 </tr>
 </table>
 
-An important change is that **v5** supports the new batch request API, which can be essential for converting some old calls. For example, the **v4** `GetSceneList` call includes a list of scene sources for every scene, whereas the **v5** `GetSceneList` does not, and requires a `GetSceneItemList` call for every scene that you want sources for—in cases like this, the batch API can come in handy.
+An important change is that **v5** has a new batch request API. In **v4**, batch requests could be sent using the `ExecuteBatch` call, whereas they're now a completely different type of request.
+
+Since some calls in **v5** now carry less information than before, batch requests can be used to supplement additional data. For example, the **v4** `GetSceneList` call includes a list of scene sources for every scene, whereas the **v5** `GetSceneList` does not and requires a `GetSceneItemList` call for every scene that you want sources for. In these cases the easiest way to rewrite legacy code is to just do a batch call and then restructure the data.
 
 <table>
 <tr>
@@ -101,21 +103,21 @@ An important change is that **v5** supports the new batch request API, which can
 <td valign="top">
 
 ```js
-const results = await Promises.all([
-  client.send(
-    'GetVersion'
-  ),
-  client.send(
-    'SetCurrentPreviewScene',
-    {name: 'Scene 5'}
-  )
-])
+const results = await client.send('ExecuteBatch', {requests: [
+  {
+    'request-type': 'GetVersion'
+  },
+  {
+    'request-type': 'SetPreviewScene',
+    'scene-name': 'Scene 5'
+  }
+]})
 ```
 </td>
 <td valign="top">
 
 ```js
-const results = await obs.callBatch([
+const results = await client.callBatch([
   {
     requestType: 'GetVersion',
   },
@@ -130,8 +132,7 @@ const results = await obs.callBatch([
 <tr>
 <td valign="top" colspan="2">
 
-• Results are sent as an array, one item for each call.<br>
-• The **v4** example is far less efficient, especially when not communicating locally.
+• The request data is now split off into its own object.
 
 </td>
 </tr>
