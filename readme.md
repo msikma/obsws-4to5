@@ -191,11 +191,16 @@ client.once('EventName', fn)
 
 TODO.
 
+For reference, see the full list of requests:
+
+* [4.9.1 protocol request list](https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#requests)
+* [5.1.0 protocol request list](https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#requests)
+
 ## Events
 
 TODO.
 
-For reference, see the full event lists:
+For reference, see the full list of events:
 
 * [4.9.1 protocol event list](https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#events)
 * [5.1.0 protocol event list](https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#events)
