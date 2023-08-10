@@ -479,7 +479,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>version</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>obs-websocket-version</td>
@@ -490,7 +490,7 @@ All calls in this document have links to the relevant heading in the official do
 <td>obsVersion</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>rpcVersion</td>
 </tr>
 <tr>
@@ -502,11 +502,11 @@ All calls in this document have links to the relevant heading in the official do
 <td>supportedImageFormats</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>platform</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>platformDescription</td>
 </tr>
 </table>
@@ -717,11 +717,11 @@ All calls in this document have links to the relevant heading in the official do
 <td>availableDiskSpace</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>webSocketSessionIncomingMessages</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>webSocketSessionOutgoingMessages</td>
 </tr>
 </table>
@@ -752,7 +752,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>realm</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>data</td>
@@ -815,27 +815,27 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>scaleType</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>fps</td>
 <td>fpsNumerator</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>fpsDenominator</td>
 </tr>
 <tr>
 <td>videoFormat</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>colorSpace</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>colorRange</td>
-<td>—</td>
+<td>–</td>
 </tr>
 </table>
 
@@ -869,7 +869,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>type</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>monitor</td>
@@ -1027,7 +1027,7 @@ All calls in this document have links to the relevant heading in the official do
 <td>sleepMillis</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>sleepFrames</td>
 </tr>
 </table>
@@ -1065,7 +1065,7 @@ All calls in this document have links to the relevant heading in the official do
 <td>inputName</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>mediaAction</td>
 </tr>
 </table>
@@ -1154,7 +1154,7 @@ All calls in this document have links to the relevant heading in the official do
 <th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>mediaState</td>
 </tr>
 <tr>
@@ -1318,7 +1318,7 @@ All calls in this document have links to the relevant heading in the official do
 <th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>inputKind</td>
 </tr>
 </table>
@@ -1336,14 +1336,14 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>sources[].typeId</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>sources[].type</td>
 <td>inputs[].inputKind</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>inputs[].unversionedInputKind</td>
 </tr>
 </table>
@@ -1373,7 +1373,7 @@ All calls in this document have links to the relevant heading in the official do
 <th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>unversioned</td>
 </tr>
 </table>
@@ -1425,7 +1425,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>useDecibel</td>
-<td>—</td>
+<td>–</td>
 </tr>
 </table>
 
@@ -1438,22 +1438,22 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>name</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>volume</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>muted</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>inputVolumeMul</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>inputVolumeDb</td>
 </tr>
 </table>
@@ -1487,20 +1487,20 @@ All calls in this document have links to the relevant heading in the official do
 <td>inputName</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>inputVolumeMul</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>inputVolumeDb</td>
 </tr>
 <tr>
 <td>volume</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>useDecibel</td>
-<td>—</td>
+<td>–</td>
 </tr>
 </table>
 
@@ -1547,30 +1547,30 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>track1</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>track2</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>track3</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>track4</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>track5</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>track6</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>inputAudioTracks</td>
 </tr>
 </table>
@@ -1605,14 +1605,14 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>track</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>active</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>inputAudioTracks</td>
 </tr>
 </table>
@@ -1660,7 +1660,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>name</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>muted</td>
@@ -1744,7 +1744,7 @@ All calls in this document have links to the relevant heading in the official do
 <th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>inputMuted</td>
 </tr>
 </table>
@@ -1791,7 +1791,7 @@ All calls in this document have links to the relevant heading in the official do
 <td>videoActive</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>videoShowing</td>
 </tr>
 </table>
@@ -1936,7 +1936,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>name</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>offset</td>
@@ -1974,7 +1974,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>sourceType</td>
-<td>—</td>
+<td>–</td>
 </tr>
 </table>
 
@@ -1987,7 +1987,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>sourceName</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>sourceType</td>
@@ -2029,14 +2029,14 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>sourceType</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>sourceSettings</td>
 <td>inputSettings</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>overlay</td>
 </tr>
 </table>
@@ -2050,15 +2050,15 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>sourceName</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>sourceType</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>sourceSettings</td>
-<td>—</td>
+<td>–</td>
 </tr>
 </table>
 
@@ -2174,7 +2174,7 @@ All calls in this document have links to the relevant heading in the official do
 <td>filters[].filterSettings</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>filters[].filterIndex</td>
 </tr>
 </table>
@@ -2230,14 +2230,14 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>name</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>settings</td>
 <td>filterSettings</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>filterIndex</td>
 </tr>
 </table>
@@ -2434,7 +2434,7 @@ All calls in this document have links to the relevant heading in the official do
 <td>filterSettings</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>overlay</td>
 </tr>
 </table>
@@ -2601,7 +2601,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>sourceKind</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>defaultSettings</td>
@@ -2667,7 +2667,7 @@ All calls in this document have links to the relevant heading in the official do
 <td>inputName</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>propertyName</td>
 </tr>
 </table>
@@ -2769,7 +2769,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>settings</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>totalBytes</td>
@@ -2780,32 +2780,32 @@ All calls in this document have links to the relevant heading in the official do
 <td>outputTotalFrames</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>outputDuration</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>outputTimecode</td>
 </tr>
 <tr>
 <td>type</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>flags</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>width</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>height</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>name</td>
-<td>—</td>
+<td>–</td>
 </tr>
 </table>
 
@@ -2873,7 +2873,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>force</td>
-<td>—</td>
+<td>–</td>
 </tr>
 </table>
 
@@ -2948,7 +2948,7 @@ All calls in this document have links to the relevant heading in the official do
 <td>currentProfileName</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>profiles</td>
 </tr>
 </table>
@@ -2982,7 +2982,7 @@ All calls in this document have links to the relevant heading in the official do
 <th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>currentProfileName</td>
 </tr>
 <tr>
@@ -3033,14 +3033,14 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>recordingFilename</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>outputDuration</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>outputBytes</td>
 </tr>
 </table>
@@ -3124,7 +3124,7 @@ All calls in this document have links to the relevant heading in the official do
 <th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>outputPath</td>
 </tr>
 </table>
@@ -3314,7 +3314,7 @@ All calls in this document have links to the relevant heading in the official do
 <th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>outputActive</td>
 </tr>
 </table>
@@ -3465,7 +3465,7 @@ All calls in this document have links to the relevant heading in the official do
 <td>currentSceneCollectionName</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>sceneCollections</td>
 </tr>
 </table>
@@ -3499,7 +3499,7 @@ All calls in this document have links to the relevant heading in the official do
 <th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>currentSceneCollectionName</td>
 </tr>
 <tr>
@@ -3547,14 +3547,14 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>sceneName</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>sceneItems[].itemId</td>
 <td>sceneItems[].sceneItemId</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>sceneItems[].sceneItemIndex</td>
 </tr>
 <tr>
@@ -3570,23 +3570,23 @@ All calls in this document have links to the relevant heading in the official do
 <td>sceneItems[].sourceType</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>sceneItems[].sceneItemBlendMode</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>sceneItems[].sceneItemEnabled</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>sceneItems[].sceneItemLocked</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>sceneItems[].sceneItemTransform</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>sceneItems[].isGroup</td>
 </tr>
 </table>
@@ -3700,7 +3700,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>source</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>item</td>
@@ -3771,26 +3771,26 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>item</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>x-scale</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>y-scale</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>rotation</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>sceneItemId</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>sceneItemTransform</td>
 </tr>
 </table>
@@ -3829,30 +3829,30 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>item</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>top</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>bottom</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>left</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>right</td>
 <td>sceneItemId</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>sceneItemTransform</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>-</td>
 </tr>
 </table>
@@ -3891,7 +3891,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>item.name</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>item.id</td>
@@ -4005,7 +4005,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>scene</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>item.id</td>
@@ -4013,7 +4013,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>item.name</td>
-<td>—</td>
+<td>–</td>
 </tr>
 </table>
 
@@ -4089,7 +4089,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>sources</td>
-<td>—</td>
+<td>–</td>
 </tr>
 </table>
 
@@ -4130,7 +4130,7 @@ All calls in this document have links to the relevant heading in the official do
 <td>currentProgramSceneName</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>currentPreviewSceneName</td>
 </tr>
 <tr>
@@ -4350,23 +4350,23 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>recording</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>recording-paused</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>outputReconnecting</td>
 </tr>
 <tr>
 <td>virtualcam</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>preview-only</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>stream-timecode</td>
@@ -4374,11 +4374,11 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>rec-timecode</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>virtualcam-timecode</td>
-<td>—</td>
+<td>–</td>
 </tr>
 </table>
 
@@ -4420,7 +4420,7 @@ All calls in this document have links to the relevant heading in the official do
 <th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>outputActive</td>
 </tr>
 </table>
@@ -4678,7 +4678,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>sources</td>
-<td>—</td>
+<td>–</td>
 </tr>
 </table>
 
@@ -4742,11 +4742,11 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>with-transition.name</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>with-transition.duration</td>
-<td>—</td>
+<td>–</td>
 </tr>
 </table>
 
@@ -4783,7 +4783,7 @@ All calls in this document have links to the relevant heading in the official do
 <th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>studioModeEnabled</td>
 </tr>
 </table>
@@ -4817,7 +4817,7 @@ All calls in this document have links to the relevant heading in the official do
 <th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>studioModeEnabled</td>
 </tr>
 </table>
@@ -4884,7 +4884,7 @@ All calls in this document have links to the relevant heading in the official do
 <td>currentSceneTransitionName</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>currentSceneTransitionKind</td>
 </tr>
 <tr>
@@ -4930,19 +4930,19 @@ All calls in this document have links to the relevant heading in the official do
 <td>transitionDuration</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>transitionKind</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>transitionFixed</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>transitionConfigurable</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>transitionSettings</td>
 </tr>
 </table>
@@ -5245,7 +5245,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>virtualCamTimecode</td>
-<td>—</td>
+<td>–</td>
 </tr>
 </table>
 
@@ -5282,7 +5282,7 @@ All calls in this document have links to the relevant heading in the official do
 <th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>outputActive</td>
 </tr>
 </table>
@@ -5371,7 +5371,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>sources</td>
-<td>—</td>
+<td>–</td>
 </tr>
 </table>
 
@@ -5618,19 +5618,19 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>type</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>duration</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>from-scene</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>to-scene</td>
-<td>—</td>
+<td>–</td>
 </tr>
 </table>
 
@@ -5668,15 +5668,15 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>type</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>duration</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>to-scene</td>
-<td>—</td>
+<td>–</td>
 </tr>
 </table>
 
@@ -5714,19 +5714,19 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>type</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>duration</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>from-scene</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>to-scene</td>
-<td>—</td>
+<td>–</td>
 </tr>
 </table>
 
@@ -5836,14 +5836,14 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>preview-only</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>outputActive</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>outputState</td>
 </tr>
 </table>
@@ -5906,11 +5906,11 @@ All calls in this document have links to the relevant heading in the official do
 <th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>outputActive</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>outputState</td>
 </tr>
 <tr>
@@ -5948,11 +5948,11 @@ All calls in this document have links to the relevant heading in the official do
 <th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>outputActive</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>outputState</td>
 </tr>
 </table>
@@ -5986,11 +5986,11 @@ All calls in this document have links to the relevant heading in the official do
 <th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>outputActive</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>outputState</td>
 </tr>
 </table>
@@ -6079,7 +6079,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>realm</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>data</td>
@@ -6116,7 +6116,7 @@ All calls in this document have links to the relevant heading in the official do
 <th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>sceneName</td>
 </tr>
 <tr>
@@ -6125,22 +6125,22 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>sourceType</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>sourceKind</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>sourceSettings</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>sceneItemId</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>sceneItemIndex</td>
 </tr>
 </table>
@@ -6174,7 +6174,7 @@ All calls in this document have links to the relevant heading in the official do
 <th>Protocol v5 (RPC 1)</th>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>sceneName</td>
 </tr>
 <tr>
@@ -6183,11 +6183,11 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>sourceType</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>sourceKind</td>
-<td>—</td>
+<td>–</td>
 </tr>
 </table>
 
@@ -6401,7 +6401,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>sourceType</td>
-<td>—</td>
+<td>–</td>
 </tr>
 </table>
 
@@ -6446,7 +6446,7 @@ All calls in this document have links to the relevant heading in the official do
 <td>filterKind</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>filterIndex</td>
 </tr>
 <tr>
@@ -6454,7 +6454,7 @@ All calls in this document have links to the relevant heading in the official do
 <td>filterSettings</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>defaultFilterSettings</td>
 </tr>
 </table>
@@ -6497,7 +6497,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>filterType</td>
-<td>—</td>
+<td>–</td>
 </tr>
 </table>
 
@@ -6615,7 +6615,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>sourceKind</td>
-<td>—</td>
+<td>–</td>
 </tr>
 </table>
 
@@ -6691,10 +6691,10 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>sourceKind</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>mediaAction</td>
 </tr>
 </table>
@@ -6778,7 +6778,7 @@ All calls in this document have links to the relevant heading in the official do
 <td>sceneItemId</td>
 </tr>
 <tr>
-<td>—</td>
+<td>–</td>
 <td>sceneItemIndex</td>
 </tr>
 </table>
@@ -6859,7 +6859,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>item-name</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>item-id</td>
@@ -6905,7 +6905,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>item-name</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>item-id</td>
@@ -6951,7 +6951,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>item-name</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>item-id</td>
@@ -6997,7 +6997,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>item-name</td>
-<td>—</td>
+<td>–</td>
 </tr>
 <tr>
 <td>item-id</td>
@@ -7064,7 +7064,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td>sources</td>
-<td>—</td>
+<td>–</td>
 </tr>
 </table>
 
