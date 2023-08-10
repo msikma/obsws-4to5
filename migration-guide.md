@@ -6,24 +6,28 @@ While this is not a comprehensive reference, it aims to get you most of the way 
 
 Additionally, this document contains a brief overview of the changes to how you connect to the server and make calls, although this is mostly client-dependent. We use [obs-websocket-js](https://github.com/obs-websocket-community-projects/obs-websocket-js) for the sake of example—if you're using a different client, check their documentation to see how these aspects changed.
 
-See [this document's Github page](readme.md) for more information on how to contribute.
+See [this document's Github page](readme.md) for information on how to contribute.
 
 ## New features
 
 * You can now store and request **persistent JSON data** in OBS using the [GetPersistentData](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#getpersistentdata) call.
-* A new **"vendor" API** has been added, which is similar to `CustomEvent` messages but designed specifically for plugin developers.
+* A new **"vendor" API** has been added, which is similar to [CustomEvent](https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#customevent) messages but designed specifically for plugin developers.
 * The API is now **versioned**, meaning calls are guaranteed to be stable if the RPC version is specified on connect.
 
 A number of [other new features](https://github.com/obsproject/obs-websocket/wiki/Notable-changes-between-4.x-and-5.x) have been added as well.
 
 ## Basics
 
-The protocol has completely changed since v4, so old applications require extensive changes to bring them up to date. A v4 client can *not* connect to a v5 server—there is no backwards compatibility.
+**The protocol has completely changed since v4,** so old applications require extensive changes to bring them up to date. A v4 client can *not* connect to a v5 server—there is no backwards compatibility.
+
+In the OBS settings panel, the following changes were made:
 
 * The **default port** was changed from **4444** (v4) to **4455** (v5).
 * Authentication is now enabled by default.
 
-**All of the following examples are specific to [obs-websocket-js](https://github.com/obs-websocket-community-projects/obs-websocket-js).** If you're using a different client, check its documentation to see its equivalent. The reason we're using Javascript for this section is purely so we can show examples for what is fully client-dependent code.
+All basic aspects of connecting to obs-websocket, making calls and listening for events, is client-specific. For illustrative purposes, we're demonstrating the changes using the [obs-websocket-js](https://github.com/obs-websocket-community-projects/obs-websocket-js) client. All code in this section is specific to Javascript for the sake of example.
+
+If you're using a different client, check its documentation to see its equivalent.
 
 ### Connecting
 
@@ -62,7 +66,7 @@ await client.connect(
 </tr>
 </table>
 
-It's **highly recommended** to add the RPC version to your connect call to ensure stability in the API.
+It's **highly recommended** to add the RPC version to your `connect()` call to ensure stability in the API.
 
 If you try to connect to a **v5** server with a **v4** client, the call will throw a `CONNECTION_ERROR`.
 
@@ -92,9 +96,9 @@ await client.call('RequestName', {})
 </tr>
 </table>
 
-An important change is that **v5** has a new batch request API. In **v4**, batch requests could be sent using the `ExecuteBatch` call, whereas they're now a completely different type of request.
+An important change is that **v5** has a new batch request API. In **v4**, batch requests could be sent using the **ExecuteBatch** call, whereas they're now a completely different type of request.
 
-Since some calls in **v5** now carry less information than before, batch requests can be used to supplement additional data. For example, the **v4** `GetSceneList` call includes a list of scene sources for every scene, whereas the **v5** `GetSceneList` does not and requires a `GetSceneItemList` call for every scene that you want sources for. In these cases the easiest way to recreate the legacy behavior is to just do a batch call and then restructure the data.
+Since some calls in **v5** now carry less information than before, batch requests can be used to supplement additional data. For example, the **v4** **GetSceneList** call includes a list of scene sources for every scene, whereas the **v5** **GetSceneList** call does not and requires a **GetSceneItemList** call for every scene that you want sources for. In these cases the easiest way to recreate the legacy behavior is to just do a batch call and then combine the data.
 
 <table>
 <tr>
