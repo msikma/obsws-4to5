@@ -1,12 +1,201 @@
-# obs-websocket v4 to v5 request/event migration reference
+# obs-websocket v4 to v5 migration reference
 
-This document contains a list of all **requests** and **events** that changed between obs-websocket v4 and v5.
+**This document is a migration reference for developers interested in updating their code from obs-websocket v4 to v5.**
+
+While this is not a comprehensive reference, it aims to get you most of the way there. By far most upgrade work is in the request/event changes—almost every single call to the server has changed name and interface. The main purpose of this document is to allow you to search for your old v4 calls to easily find the v5 equivalent. That way you can update your code one call at a time.
+
+Additionally, this document contains a brief overview of the changes to how you connect to the server and make calls, although this is mostly client-dependent. We use [obs-websocket-js](https://github.com/obs-websocket-community-projects/obs-websocket-js) for the sake of example—if you're using a different client, check their documentation to see how these aspects changed.
+
+See [this document's Github page](readme.md) for more information on how to contribute.
+
+## New features
+
+* You can now store and request **persistent JSON data** in OBS using the [GetPersistentData](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#getpersistentdata) call.
+* A new **"vendor" API** has been added, which is similar to `CustomEvent` messages but designed specifically for plugin developers.
+* The API is now **versioned**, meaning calls are guaranteed to be stable if the RPC version is specified on connect.
+
+A number of [other new features](https://github.com/obsproject/obs-websocket/wiki/Notable-changes-between-4.x-and-5.x) have been added as well.
+
+## Basics
+
+The protocol has completely changed since v4, so old applications require extensive changes to bring them up to date. A v4 client can *not* connect to a v5 server—there is no backwards compatibility.
+
+* The **default port** was changed from **4444** (v4) to **4455** (v5).
+* Authentication is now enabled by default.
+
+**All of the following examples are specific to [obs-websocket-js](https://github.com/obs-websocket-community-projects/obs-websocket-js).** If you're using a different client, check its documentation to see its equivalent. The reason we're using Javascript for this section is purely so we can show examples for what is fully client-dependent code.
+
+### Connecting
+
+<table>
+<tr>
+<th>Protocol v4</th><th>Protocol v5</th>
+</tr>
+<tr>
+<td valign="top">
+
+```js
+await client.connect({
+  address: 'localhost:4444',
+  password: 'my-password'
+})
+```
+</td>
+<td valign="top">
+
+```js
+await client.connect(
+  'ws://localhost:4455',
+  'my-password',
+  // identificationParams {}
+)
+```
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+• The `ws://` part is now mandatory.<br>
+• A new [identificationParams](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#identify-opcode-1) object can be passed ([example](https://github.com/obs-websocket-community-projects/obs-websocket-js#connecting)).
+
+</td>
+</tr>
+</table>
+
+It's **highly recommended** to add the RPC version to your connect call to ensure stability in the API.
+
+If you try to connect to a **v5** server with a **v4** client, the call will throw a `CONNECTION_ERROR`.
+
+Disconnecting has remained the same.
+
+### Sending requests
+
+The method for sending requests has changed from `send()` to `call()`.
+
+<table>
+<tr>
+<th>Protocol v4</th><th>Protocol v5</th>
+</tr>
+<tr>
+<td valign="top">
+
+```js
+await client.send('RequestName', {})
+```
+</td>
+<td valign="top">
+
+```js
+await client.call('RequestName', {})
+```
+</td>
+</tr>
+</table>
+
+An important change is that **v5** has a new batch request API. In **v4**, batch requests could be sent using the `ExecuteBatch` call, whereas they're now a completely different type of request.
+
+Since some calls in **v5** now carry less information than before, batch requests can be used to supplement additional data. For example, the **v4** `GetSceneList` call includes a list of scene sources for every scene, whereas the **v5** `GetSceneList` does not and requires a `GetSceneItemList` call for every scene that you want sources for. In these cases the easiest way to recreate the legacy behavior is to just do a batch call and then restructure the data.
+
+<table>
+<tr>
+<th>Protocol v4</th><th>Protocol v5</th>
+</tr>
+<tr>
+<td valign="top">
+
+```js
+const results = await client.send(
+  'ExecuteBatch',
+  {
+    requests: [
+      {
+        'request-type': 'GetVersion'
+      },
+      {
+        'request-type': 'SetPreviewScene',
+        'scene-name': 'Scene 5'
+      }
+    ]
+  }
+)
+```
+</td>
+<td valign="top">
+
+```js
+const results = await client.callBatch([
+  {
+    requestType: 'GetVersion',
+  },
+  {
+    requestType: 'SetCurrentPreviewScene',
+    requestData: {sceneName: 'Scene 5'}
+  }
+])
+```
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+• The request data is now split off into its own object.
+
+</td>
+</tr>
+</table>
+
+### Listening for events
+
+Almost all events have changed name and return data in a different format.
+
+It's worth mentioning that all event properties are now in camelCase, whereas in **v4** properties were a mix of camelCase and snake-case.
+
+The process of adding and removing listeners **has remained the same**, so this overview here is purely for reference.
+
+<table>
+<tr>
+<th colspan="2">Protocol v4 and v5</th>
+</tr>
+<tr>
+<td valign="top">
+
+```js
+// Adds a listener for EventName.
+client.on('EventName', data => {
+  // Do something with 'data'.
+})
+client.addListener('EventName', fn)
+
+// Removes a specific EventName listener.
+client.off('EventName', fn)
+client.removeListener('EventName', fn)
+
+// Runs a callback only once.
+client.once('EventName', fn)
+```
+</td>
+</tr>
+<tr>
+<td valign="top" colspan="2">
+
+• Data attributes are now always in camelCase.
+
+</td>
+</tr>
+</table>
+
+## Request/event reference
+
+This section contains a list of all **requests** and **events** that changed between obs-websocket v4 and v5.
 
 Almost everything has changed between the two versions, and almost nothing is backwards compatible. The best way to upgrade your code is to go through each event individually and change it to the v5 equivalent.
 
-See [readme.md](readme.md) for more information on migrating from v4 to v5.
+For more information, see the full official documentation on requests and events:
 
-## Table of contents
+* [4.9.1 protocol request list](https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#requests) and [event list](https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#events)
+* [5.1.0 protocol request list](https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#requests) and [event list](https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#events)
+
+All calls in this document have links to the relevant heading in the official documentation.
 
 ### Requests
 
@@ -5132,13 +5321,6 @@ See [readme.md](readme.md) for more information on migrating from v4 to v5.
 
 *None.*
 
-----
-
-For reference, see the full list of requests:
-
-* [4.9.1 protocol request list](https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#requests)
-* [5.1.0 protocol request list](https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#requests)
-
 ## Events
 
 ### SwitchScenes
@@ -6903,13 +7085,6 @@ For reference, see the full list of requests:
 <td>studioModeEnabled</td>
 </tr>
 </table>
-
-----
-
-For reference, see the full list of events:
-
-* [4.9.1 protocol event list](https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#events)
-* [5.1.0 protocol event list](https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#events)
 
 ## External links
 
