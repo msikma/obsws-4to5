@@ -1,14 +1,12 @@
 # obs-websocket v4 to v5 migration reference
 
-> Note: I only just started writing this guide, so it's far from ready. Feel free to leave a comment/issue/PR to help out.
-
 This is a quick reference I put together to help people migrate their code from [obs-websocket](https://github.com/obsproject/obs-websocket) protocol v4 to v5.
 
 At this time of writing, there unfortunately is no official migration guide, although [one is apparently in the works](https://github.com/obsproject/obs-websocket/wiki/Notable-changes-between-4.x-and-5.x). This means the only way to update your code right now is to go through both protocol documents and guess which old calls correspond to which new calls.
 
-I am not involved in the development of obs-websocket or OBS itself, so I'm not the best person for writing a migration guide, but I thought it would be useful to at least share my work with others. This document aims to at least link together all v4 calls and v5 calls, so that if you're migrating you can Ctrl+F your old v4 calls and instantly find out what the new call should be.
+**I am not involved in the development of obs-websocket or OBS itself,** so I'm not the best person for writing a migration guide, but I thought it would be useful to at least share my work with others. This document primarily aims to connect all v4 requests and events to their v5 equivalents, so that if you're migrating you can Ctrl+F your old v4 calls and instantly find out what the new call should be.
 
-**This guide is written with [obs-websocket-js](https://github.com/obs-websocket-community-projects/obs-websocket-js) in mind,** so some of the information here is JS-specific—if you use a different client, you can skip over to the list of calls. If you'd like to help improve this guide by adding information specific to other clients, or anything else that might help, feel free to open an issue or send in a PR.
+While most information here is client-agnostic, some examples are written with [obs-websocket-js](https://github.com/obs-websocket-community-projects/obs-websocket-js) in mind, just for the same of having practical examples. If you use a different client, you can skip over to the list of calls. If you'd like to help improve this guide by adding information specific to other clients, or anything else that might help, feel free to open an issue or send in a PR.
 
 ## New features
 
