@@ -1,6 +1,6 @@
 # obs-websocket v4 to v5 request/event migration reference
 
-This document contains a list of all requests and events that changed between obs-websocket v4 and v5.
+This document contains a list of all **requests** and **events** that changed between obs-websocket v4 and v5.
 
 Almost everything has changed between the two versions, and almost nothing is backwards compatible. The best way to upgrade your code is to go through each event individually and change it to the v5 equivalent.
 
@@ -320,7 +320,7 @@ See [readme.md](readme.md) for more information on migrating from v4 to v5.
 
 **Notes:**
 
-available-requests and supported-image-export-formats changed from a comma-separated list string into an array of strings.
+* **available-requests** and **supported-image-export-formats** changed from a comma-separated list string into an array of strings.
 
 ----
 
@@ -399,7 +399,7 @@ available-requests and supported-image-export-formats changed from a comma-separ
 
 **Notes:**
 
-Was deprecated since 4.9.0.
+* Was deprecated since 4.9.0.
 
 ----
 
@@ -565,7 +565,8 @@ Was deprecated since 4.9.0.
 
 **Notes:**
 
-"realm" is gone. Pass on the realm value in your eventData object instead.
+* **realm** is gone. Pass on the realm value in your eventData object instead.
+* Note that the related v5 **CallVendorRequest** call does have a **requestType** value that mirrors **realm**.
 
 ----
 
@@ -639,7 +640,7 @@ Was deprecated since 4.9.0.
 
 **Notes:**
 
-to get the true FPS value, divide the FPS numerator by the FPS denominator.+sa: SetVideoSettings
+* To get the true FPS value, divide the FPS numerator by the FPS denominator.+sa: SetVideoSettings
 
 ----
 
@@ -689,7 +690,7 @@ to get the true FPS value, divide the FPS numerator by the FPS denominator.+sa: 
 
 **Notes:**
 
-Docs state this is likely to be changed or deprecated in the future.
+* Docs state this is likely to be changed or deprecated in the future.
 
 ----
 
@@ -794,7 +795,7 @@ Docs state this is likely to be changed or deprecated in the future.
 
 **Notes:**
 
-This is no longer a single request, but a separate API entirely.
+* This is no longer a single request, but a separate API entirely. See [readme.md](readme.md#sending-requests) for more information.
 
 ----
 
@@ -874,7 +875,7 @@ This is no longer a single request, but a separate API entirely.
 
 **Notes:**
 
-use an item from the ObsMediaInputAction enum. #https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#obsmediainputaction
+* **mediaAction** must be an item from [the ObsMediaInputAction enum](https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#obsmediainputaction).
 
 ----
 
@@ -967,7 +968,7 @@ use an item from the ObsMediaInputAction enum. #https://github.com/obsproject/ob
 
 **Notes:**
 
-See the v5 docs for a list of media states.
+* **mediaState** will be an item from [the ObsMediaState enum](https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#media-inputs-requests).
 
 ----
 
@@ -1191,7 +1192,7 @@ See the v5 docs for a list of media states.
 
 **Notes:**
 
-In v4 an object with lots of metadata was returned. In v5 only an array of strings representing the internal input kind names is returned.
+* In v4 an object with lots of metadata was returned. In v5 only an array of strings representing the internal input kind names is returned.
 
 ----
 
@@ -1862,7 +1863,7 @@ In v4 an object with lots of metadata was returned. In v5 only an array of strin
 
 **Notes:**
 
-No longer reflects the new updated settings back.
+* No longer reflects the new updated settings back.
 
 ----
 
@@ -2193,7 +2194,7 @@ No longer reflects the new updated settings back.
 
 **Notes:**
 
-Retrieve the current index and then use SetSourceFilterIndex.
+* Gone as of v5. To achieve the same thing, retrieve the current index using **GetSourceFilter** and then use **SetSourceFilterIndex**.
 
 ----
 
@@ -2434,7 +2435,7 @@ Retrieve the current index and then use SetSourceFilterIndex.
 
 **Notes:**
 
-Split into two different requests, depending on whether you want to save the image or get it data URI encoded. See the v5 docs.
+* Split into two different requests, depending on whether you want to save the image or get it data URI encoded.
 
 ----
 
@@ -2476,7 +2477,7 @@ Split into two different requests, depending on whether you want to save the ima
 
 **Notes:**
 
-Pass "refreshnocache" as propertyName.
+* Gone as of v5. To achieve the same thing, use **PressInputPropertiesButton** and set **propertyName** to **"refreshnocache"**.
 
 ----
 
@@ -2544,11 +2545,68 @@ Pass "refreshnocache" as propertyName.
 
 **Response fields:**
 
-*None.*
-
-**Notes:**
-
-TODO comparison of the response.
+<table>
+<tr>
+<th>Protocol v4.9.1</th>
+<th>Protocol v5 (RPC 1)</th>
+</tr>
+<tr>
+<td>active</td>
+<td>outputActive</td>
+</tr>
+<tr>
+<td>congestion</td>
+<td>outputCongestion</td>
+</tr>
+<tr>
+<td>droppedFrames</td>
+<td>outputSkippedFrames</td>
+</tr>
+<tr>
+<td>reconnecting</td>
+<td>outputReconnecting</td>
+</tr>
+<tr>
+<td>settings</td>
+<td>—</td>
+</tr>
+<tr>
+<td>totalBytes</td>
+<td>outputBytes</td>
+</tr>
+<tr>
+<td>totalFrames</td>
+<td>outputTotalFrames</td>
+</tr>
+<tr>
+<td>—</td>
+<td>outputDuration</td>
+</tr>
+<tr>
+<td>—</td>
+<td>outputTimecode</td>
+</tr>
+<tr>
+<td>type</td>
+<td>—</td>
+</tr>
+<tr>
+<td>flags</td>
+<td>—</td>
+</tr>
+<tr>
+<td>width</td>
+<td>—</td>
+</tr>
+<tr>
+<td>height</td>
+<td>—</td>
+</tr>
+<tr>
+<td>name</td>
+<td>—</td>
+</tr>
+</table>
 
 ----
 
@@ -3332,9 +3390,6 @@ TODO comparison of the response.
 </tr>
 </table>
 
-**Notes:**
-
-TODO. v4 property list probably incomplete.
 **See also:**
 
 * <a href="https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#getgroupsceneitemlist">GetGroupSceneItemList</a>
@@ -4011,7 +4066,7 @@ TODO. v4 property list probably incomplete.
 
 **Notes:**
 
-Use SetSceneSceneTransitionOverride and set transitionName and transitionDuration to null.
+* Gone as of v5. To achieve the same thing, use **SetSceneSceneTransitionOverride** and set **transitionName** and **transitionDuration** to **null**.
 
 ----
 
@@ -4128,7 +4183,8 @@ Use SetSceneSceneTransitionOverride and set transitionName and transitionDuratio
 
 **Notes:**
 
-Information about the recording and virtual cam status has been moved to GetRecordStatus and GetVirtualCamStatus.
+* In v4, this one call also returned information about the recording and virtual cam status. As of v5, this has been moved to the separate **GetRecordStatus** and **GetVirtualCamStatus** calls.
+
 **See also:**
 
 * <a href="https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#getrecordstatus">GetRecordStatus</a>
@@ -4499,7 +4555,7 @@ Information about the recording and virtual cam status has been moved to GetReco
 
 **Notes:**
 
-Unknown if it's still possible to override the transition like in v4.
+* TODO. Unknown if it's still possible to override the transition like in v4.
 
 ----
 
@@ -4785,7 +4841,7 @@ Unknown if it's still possible to override the transition like in v4.
 
 **Notes:**
 
-Use GetCurrentSceneTransition.
+* TODO. Use **GetCurrentSceneTransition**.
 
 ----
 
@@ -4848,7 +4904,7 @@ Use GetCurrentSceneTransition.
 
 **Notes:**
 
-Use GetCurrentSceneTransition.
+* TODO. Use **GetCurrentSceneTransition**.
 
 ----
 
@@ -4877,7 +4933,7 @@ Use GetCurrentSceneTransition.
 
 **Notes:**
 
-Use SetCurrentSceneTransitionSettings. Unknown if it's currently possible to set the transition settings of a different one than the current scene transition.
+* Use **SetCurrentSceneTransitionSettings**. Unknown if it's currently possible to set the transition settings of a different one than the current scene transition.
 
 ----
 
@@ -4906,7 +4962,7 @@ Use SetCurrentSceneTransitionSettings. Unknown if it's currently possible to set
 
 **Notes:**
 
-Use SetTBarPosition with "release" set to true.
+* Gone as of v5. To achieve the same thing, use **SetTBarPosition** and set **"release"** to **true**.
 
 ----
 
@@ -4948,7 +5004,7 @@ Use SetTBarPosition with "release" set to true.
 
 **Notes:**
 
-deprecated and very likely to be removed in a future update.
+* Deprecated and very likely to be removed in a future update.
 
 ----
 
@@ -4990,7 +5046,7 @@ deprecated and very likely to be removed in a future update.
 
 **Notes:**
 
-Unknown if it's possible to get virtualCamTimecode in any way in v5.
+* TODO. Unknown if it's possible to get **virtualCamTimecode** in any way in v5.
 
 ----
 
@@ -5235,7 +5291,7 @@ For reference, see the full list of requests:
 
 **Notes:**
 
-sceneCollections changed from Array<{name: string}> to Array<string>.
+* **sceneCollections** changed from **Array\<{name: string}>** to **Array\<string>**.
 
 ----
 
@@ -5550,7 +5606,7 @@ sceneCollections changed from Array<{name: string}> to Array<string>.
 
 **Notes:**
 
-profiles changed from Array<{name: string}> to Array<string>.
+* **profiles** changed from **Array\<{name: string}>** to **Array\<string>**.
 
 ----
 
@@ -5621,7 +5677,7 @@ profiles changed from Array<{name: string}> to Array<string>.
 
 **Notes:**
 
-Send a GetStats request
+* Gone as of v5. To achieve the same thing, send a **GetStats** request.
 
 ----
 
@@ -5793,7 +5849,7 @@ Send a GetStats request
 
 **Notes:**
 
-todo
+* Gone as of v5. To achieve the same thing, send a **GetStats** request on a timer.
 
 ----
 
@@ -6082,7 +6138,7 @@ todo
 
 **Notes:**
 
-sync offset changed from nanoseconds to milliseconds (nanoseconds * 1000000 = milliseconds).
+* The sync offset has been changed from nanoseconds to milliseconds (milliseconds = nanoseconds × 1000000).
 
 ----
 
