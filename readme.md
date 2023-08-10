@@ -12,7 +12,7 @@ While most information here is client-agnostic, some examples are written with [
 
 For ease of reading, the actual reference guide is its own separate document.
 
-Read the [obs-websocket v4 to v5 migration reference](calls.md) on Github.
+Read the [obs-websocket v4 to v5 migration reference](migration-guide.md) on Github.
 
 ## External links
 
