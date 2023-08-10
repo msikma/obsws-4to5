@@ -540,6 +540,10 @@ All calls in this document have links to the relevant heading in the official do
 
 *None.*
 
+**Notes:**
+
+* Authentication is no longer done through regular calls, but through the [`Identify` OpCode](https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#identify-opcode-1) sent while initiating the connection. See your client's documentation for more details.
+
 ----
 
 ### Authenticate
@@ -564,6 +568,10 @@ All calls in this document have links to the relevant heading in the official do
 **Response fields:**
 
 *None.*
+
+**Notes:**
+
+* Authentication is no longer done through regular calls, but through the [`Identify` OpCode](https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#identify-opcode-1) sent while initiating the connection. See your client's documentation for more details.
 
 ----
 
