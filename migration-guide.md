@@ -528,7 +528,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#getauthrequired">GetAuthRequired</a></td>
-<td valign="top">?</td>
+<td valign="top">–</td>
 </tr>
 </table>
 
@@ -557,7 +557,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#authenticate">Authenticate</a></td>
-<td valign="top">?</td>
+<td valign="top">–</td>
 </tr>
 </table>
 
@@ -586,7 +586,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#setheartbeat">SetHeartbeat</a></td>
-<td valign="top">?</td>
+<td valign="top">–</td>
 </tr>
 </table>
 
@@ -982,7 +982,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#executebatch">ExecuteBatch</a></td>
-<td valign="top">?</td>
+<td valign="top">–</td>
 </tr>
 </table>
 
@@ -2381,7 +2381,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#movesourcefilter">MoveSourceFilter</a></td>
-<td valign="top">?</td>
+<td valign="top">–</td>
 </tr>
 </table>
 
@@ -4253,7 +4253,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#removescenetransitionoverride">RemoveSceneTransitionOverride</a></td>
-<td valign="top">?</td>
+<td valign="top">–</td>
 </tr>
 </table>
 
@@ -4839,7 +4839,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#togglestudiomode">ToggleStudioMode</a></td>
-<td valign="top">?</td>
+<td valign="top">–</td>
 </tr>
 </table>
 
@@ -4850,6 +4850,10 @@ All calls in this document have links to the relevant heading in the official do
 **Response fields:**
 
 *None.*
+
+**Notes:**
+
+* Gone as of v5. Instead, keep track of whether studio mode is enabled (use **[GetStudioModeStatus](migration-guide.md#getstudiomodestatus)**) and then use either **EnableStudioMode** or **DisableStudioMode**.
 
 ----
 
@@ -5149,7 +5153,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#releasetbar">ReleaseTBar</a></td>
-<td valign="top">?</td>
+<td valign="top">–</td>
 </tr>
 </table>
 
@@ -5857,7 +5861,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#streamstatus">StreamStatus</a></td>
-<td valign="top">?</td>
+<td valign="top">–</td>
 </tr>
 </table>
 
@@ -6029,7 +6033,7 @@ All calls in this document have links to the relevant heading in the official do
 </tr>
 <tr>
 <td valign="top"><a href="https://github.com/obsproject/obs-websocket/blob/310c297a3655f8c3132c1f936e7cb1674e6a724c/docs/generated/protocol.md#heartbeat">Heartbeat</a></td>
-<td valign="top">?</td>
+<td valign="top">–</td>
 </tr>
 </table>
 
