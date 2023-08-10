@@ -146,25 +146,17 @@ const results = await client.callBatch([
 
 ### Listening for events
 
-Almost all events have changed name and return data in a different format. The process of adding listeners has remained the same.
+Almost all events have changed name and return data in a different format.
 
 It's worth mentioning that all event properties are now in camelCase, whereas in **v4** properties were a mix of camelCase and snake-case.
 
+The process of adding and removing listeners **has remained the same**, so this overview here is purely for reference.
+
 <table>
 <tr>
-<th>Protocol v4</th><th>Protocol v5</th>
+<th colspan="2">Protocol v4 and v5</th>
 </tr>
 <tr>
-<td valign="top">
-
-```js
-// Adds a listener for EventName.
-client.on('EventName', data => {
-  // Do something with 'data'.
-})
-// TODO
-```
-</td>
 <td valign="top">
 
 ```js
@@ -186,7 +178,8 @@ client.once('EventName', fn)
 <tr>
 <td valign="top" colspan="2">
 
-• Data attributes are now always in camelCase.
+• Data attributes are now always in camelCase.<br>
+• Almost all events have changed name. See [the request/event migration reference](calls.md) for more information.
 
 </td>
 </tr>
@@ -196,9 +189,7 @@ client.once('EventName', fn)
 
 Almost all requests and events have changed between v4 and v5—the names are different and the data formats have changed. The full list of changes is so long that it's split off into its own document.
 
-For a full list of the changes, see [calls.md](calls.md).
-
-
+For a full list of the changes, see [the request/event migration reference](calls.md).
 
 ## External links
 
