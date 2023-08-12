@@ -4134,10 +4134,22 @@ All calls in this document have links to the relevant heading in the official do
 <td>currentPreviewSceneName</td>
 </tr>
 <tr>
-<td>scenes</td>
-<td>scenes</td>
+<td>scenes[].name</td>
+<td>scenes[].sceneName</td>
+</tr>
+<tr>
+<td>–</td>
+<td>scenes[].sceneIndex</td>
+</tr>
+<tr>
+<td>scenes[].sources</td>
+<td>–</td>
 </tr>
 </table>
+
+**Notes:**
+
+* No longer returns a list of sources per scene. Use [GetSceneItemList](#getsceneitemlist).
 
 ----
 
