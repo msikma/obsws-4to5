@@ -841,7 +841,11 @@ All calls in this document have links to the relevant heading in the official do
 
 **Notes:**
 
-* To get the true FPS value, divide the FPS numerator by the FPS denominator.+sa: SetVideoSettings
+* To get the true FPS value, divide the FPS numerator by the FPS denominator.
+
+**See also:**
+
+* <a href="https://github.com/obsproject/obs-websocket/blob/6db08f960e8cdf93cf6afc7059d61dc3c811b465/docs/generated/protocol.md#setvideosettings">SetVideoSettings</a>
 
 ----
 
